@@ -1,12 +1,5 @@
 [
     {
-        "name": "Midnight",
-        "victoryScreenHeader": "Fulfill your Divine mission and purify the land for Alexei's return.",
-        "milestones": ["Build [Resurrection Chamber]","Build [Exhume Alexei's grave.]"],
-        "victoryString": "You've successfully brought Alexei Romanov back, now he can lead Holy Russia on a crusade to unify our world and cleanse it completely..."
-        "defeatString": "The Holy Roman Empire has brought back a dead man from the grave! This is an unprecedented event! They'll soon wipe us all out in their quest to purify the world!"
-    },
-    {
         "name": "Defcon 1",
         "victoryScreenHeader": "No, Please",
         "milestones": ["Build [End World Bombs]","Build [Drop the bombs]"],
