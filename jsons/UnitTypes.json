@@ -308,5 +308,37 @@
     {
         "name": "AtomicBomber",
         "movementType": "Air"
+    },
+    {
+        "name": "Medical",
+        "movementType": "Land",
+        "uniques": [
+            "May heal outside of friendly territory",
+            "Unable to capture cities",
+            "[+5]% Strength bonus for [Wounded] units within [2] tiles"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Medical units heal adjacent units. They should never fight in the front line - but can defend themselves if necessary. It is said that some have been taught their healing skills by their grandparents. Promote them, so that they can heal their companions better!"
+            }
+        ]
+    },
+    {
+        "name": "Ranged Frontier Hunter",
+        "movementType": "Land",
+        "uniques": [
+            "Unable to capture cities",
+            "[-1] Movement <in [Foreign Land] tiles>",
+            "[-20]% Strength <with [5] to [5] neighboring [Foreign Land] tiles>",
+            "[-90]% Strength <with [6] to [6] neighboring [Foreign Land] tiles>",
+            "[-100]% Strength <in [Enemy Land] tiles>",
+            "[+20]% Strength <within [1] tiles of a [Friendly Land]>",
+            "Never appears as a Barbarian unit"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Frontier Hunters are ranged units designed to protect your territory. They have a big disadvantage outside your territory, but show their bloom when defending it. They have great attack power and can be promoted with to protect your territory even better. Fortify the units in your territory - never send them outside!"
+            }
+        ]
     }
 ]
