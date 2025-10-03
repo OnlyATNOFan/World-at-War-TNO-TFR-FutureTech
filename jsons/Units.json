@@ -2763,7 +2763,7 @@
 		"obsoleteTech": "New Gen equipment",
 		"uniques": ["May Paradrop up to [10] tiles from inside friendly territory", "All tiles cost 1 movement", "Never appears as a Barbarian unit"],
 		"attackSound": "shots",
-		"upgradesTo": "Satelital War Paratrooper"
+		"upgradesTo": "Chaos Era Paratrooper"
 	},
 	{
 		"name": "Chaos Era Paratrooper",
