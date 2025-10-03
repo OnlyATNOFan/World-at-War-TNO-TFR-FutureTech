@@ -2760,6 +2760,18 @@
 		"strength": 85,
 		"cost": 525,
 		"requiredTech": "New Gen Aerospace Engineering",
+		"obsoleteTech": "New Gen equipment",
+		"uniques": ["May Paradrop up to [10] tiles from inside friendly territory", "All tiles cost 1 movement", "Never appears as a Barbarian unit"],
+		"attackSound": "shots",
+		"upgradesTo": "Satelital War Paratrooper"
+	},
+	{
+		"name": "Chaos Era Paratrooper",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 100,
+		"cost": 600,
+		"requiredTech": "New Gen equipment",
 		"uniques": ["May Paradrop up to [10] tiles from inside friendly territory", "All tiles cost 1 movement", "Never appears as a Barbarian unit"],
 		"attackSound": "shots",
 	},
