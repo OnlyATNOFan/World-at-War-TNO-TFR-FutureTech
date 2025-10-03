@@ -1,0 +1,14 @@
+[
+  {
+                "name": "Activate Defcon 1?",
+                "text": "",
+                "uniques": ["Only available <upon losing a city> <if [End World Bombs] is constructed>"]
+                "choices": [
+                        { "text": "No",
+                        },
+                        { "text": "Yes",
+                          "uniques": ["Gain a free [Drop the bombs] [in capital]"]
+                        }
+                ]
+  }
+]
