@@ -250,14 +250,14 @@
         "name": "Companionship",
         "prerequisites": ["Words of comfort", "Grandparents knowledge"],
                 "uniques": ["[+1] additional attacks per turn"],
-                "unitTypes": ["Medical"],
+        "unitTypes": ["Medical"],
         "row": 36,
         "column": 3
     },
-    // Medic
-        {
-                "name": "Forage",
-                "uniques": [
+    // Others
+    {
+        "name": "Forage",
+        "uniques": [
                 "[+4] HP when healing <in [Grassland] tiles>",
                 "[+4] HP when healing <in [Plains] tiles>",
                 "[+4] HP when healing <in [Oasis] tiles>",
@@ -265,34 +265,34 @@
                 "[+4] HP when healing <in [Forest] tiles>",
                 "Heals [+5] damage if it kills a Unit",
                 "[+25]% XP gained from combat"],
-                "unitTypes": ["Anti Cavalry","Sword","Gunpowder","Mounted","Light Armored","Heavy Armored","Modern Armored","Armored","Archery","Ranged Gunpowder","Militia"],
+        "unitTypes": ["Anti Cavalry","Sword","Gunpowder","Mounted","Light Armored","Heavy Armored","Modern Armored","Armored","Archery","Ranged Gunpowder","Militia"],
         "column": 39,
         "row": 1
-        },
-        {
-                "name": "Rummage",
-                "uniques": ["Earn [+10]% of killed [Military] unit's [Strength] as [Gold]",
+    },
+    {
+        "name": "Rummage",
+        "uniques": ["Earn [+10]% of killed [Military] unit's [Strength] as [Gold]",
                 "Earn [+5]% of killed [Military] unit's [Strength] as [Science]",
                 "Heals [+10] damage if it kills a Unit",
                 "[+25]% XP gained from combat"],
-                "unitTypes": ["Anti Cavalry","Sword","Gunpowder","Mounted","Light Armored","Heavy Armored","Modern Armored","Armored","Militia"],
+        "unitTypes": ["Anti Cavalry","Sword","Gunpowder","Mounted","Light Armored","Heavy Armored","Modern Armored","Armored","Militia"],
         "column": 39,
         "row": 2
-        },
+    },
         {
                 "name": "Drone Support",
                 "uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>",
                 "[+20]% Strength <when fighting in [Rough terrain] tiles>",
                 "[+50]% XP gained from combat",
                 "Only available <if [Drone factory] is constructed>"],
-                "unitTypes": ["Gunpowder","Armored","Light Armored","Heavy Armored"],
+                "unitTypes": ["Gunpowder","Armored"],
         "column": 41,
         "row": 1
         },
         {
                 "name": "Shock I",
                 "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-                "unitTypes": ["Sword","Gunpowder","Mounted","Light Armored","Heavy Armored","Modern Armored","Armored"],
+                "unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
         "column": 4,
         "row": 1
         },
@@ -300,7 +300,7 @@
                 "name": "Shock II",
                 "prerequisites": ["Shock I"],
                 "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-                "unitTypes": ["Sword","Gunpowder","Mounted","Armored","Light Armored","Heavy Armored","Modern Armored"],
+                "unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
         "column": 4,
         "row": 2
         },
@@ -308,7 +308,7 @@
                 "name": "Shock III",
                 "prerequisites": ["Shock II"],
                 "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-                "unitTypes": ["Sword","Gunpowder","Mounted","Armored","Light Armored","Heavy Armored","Modern Armored"],
+                "unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
         "column": 4,
         "row": 3
         },
@@ -316,7 +316,7 @@
                 "name": "Shock IV",
                 "prerequisites": ["Shock III"],
                 "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-                "unitTypes": ["Sword","Gunpowder","Mounted","Armored","Light Armored","Heavy Armored","Modern Armored"],
+                "unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
         "column": 4,
         "row": 4
         },
