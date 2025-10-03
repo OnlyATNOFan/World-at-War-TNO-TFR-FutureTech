@@ -4855,7 +4855,7 @@
 		"requiredResource": "Uranium",
 		"uniques": ["Never appears as a Barbarian unit","[+15]% Strength bonus for [Military] units within [2] tiles","Uncapturable","[+100]% XP gained from combat"],
 		"attackSound": "tankshot",
-		"promotions": ["KGB training","Fueled by Hate","Morale","War"]
+		"promotions": ["KGB training","Fueled by Hate","Morale"]
 	},
 	{
 		"name": "Schwerer Gustav",
