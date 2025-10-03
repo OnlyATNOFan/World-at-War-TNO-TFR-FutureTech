@@ -1,0 +1,576 @@
+[
+    {
+        "name": "Restaurant",
+
+        "maintenance": 3,
+        "gold": 3,
+        "happiness": 2,
+        "culture": 3,
+        "food": 5,
+
+        "requiredTech": "Refrigeration",
+                "requiredBuilding": "Granary",
+
+        "uniques": [
+            "[+1 Happiness] per [10] population [in all cities]",
+            "Destroyed when the city is captured"
+        ],
+
+        "cost": 200
+    },
+    {
+        "name": "Shooting range",
+
+        "maintenance": 1,
+        "hurryCostModifier": 15,
+
+        "requiredTech": "Rifling",
+                "requiredBuilding": "Armory",
+
+        "uniques": [
+            "New [Military] units start with [15] XP [in this city]",
+            "Destroyed when the city is captured"
+        ],
+
+        "cost": 200
+    },
+    {
+        "name": "Emergency service",
+
+        "maintenance": 1,
+        "cityHealth": 10,
+
+        "requiredTech": "Radio",
+
+        "uniques": [
+            "All newly-trained [Medical] units [in this city] receive the [Grandparents knowledge] promotion",
+            "Destroyed when the city is captured"],
+
+        "cost": 150
+    },
+    {
+        // Idea stolen from UnCiv-Logicians
+        "name": "Long time archive",
+
+        "maintenance": 1,
+        "science": 6,
+
+        "requiredTech": "Replaceable Parts",
+
+        "uniques": [
+            "Must be next to [Mountain]",
+            "Must be next to [Snow]",
+            "[+1 Science] per [2] population [in this city]"],
+
+        "cost": 120
+    },
+    {
+        "name": "Medical School",
+
+        "maintenance": 1,
+        "hurryCostModifier": 20,
+
+        "requiredTech": "Biology",
+
+        "uniques": [
+            "All newly-trained [Medical] units [in this city] receive the [Loyalty I] promotion",
+            "All newly-trained [Medical] units [in this city] receive the [Escape I] promotion",
+            "New [Medical] units start with [5] XP [in this city]",
+            "Destroyed when the city is captured"],
+
+        "cost": 300
+    },
+    {
+        "name": "Therapy Center",
+
+        "maintenance": 2,
+        "hurryCostModifier": 30,
+        "cityHealth": 5,
+        "science": 3,
+        "happiness": 2,
+
+        "requiredTech": "Biology",
+
+        "uniques": ["Destroyed when the city is captured"],
+
+        "cost": 600
+    },
+    {
+        "name": "Cemetery",
+
+        "maintenance": 1,
+        "cityStrength": 5,
+        "faith": 2,
+        "happiness": 1,
+
+        "requiredTech": "Theology",
+
+        "uniques": ["Destroyed when the city is captured"],
+
+        "cost": 300
+    },
+    {
+        "name": "Cuddly toy store",
+
+        "maintenance": 1,
+        "culture": 2,
+        "happiness": 1,
+
+        "requiredTech": "Railroads",
+
+        "uniques": [
+            "Only available <if [Cuddly toy factory] is constructed in at least [1] of [All] cities>",
+            "Destroyed when the city is captured"
+        ],
+
+        "cost": 300
+    },
+    {
+        "name": "Adult Education Center",
+
+        "maintenance": 2,
+        "culture": 5,
+
+        "requiredTech": "Steam Power",
+                "requiredBuilding": "Public School",
+
+        "uniques": [
+            "Requires at least [10] population",
+            "Destroyed when the city is captured"
+        ],
+
+        "cost": 400
+    },
+    {
+        "name": "Barbed wire",
+
+        "cityStrength": 10,
+        "cityHealth": 10,
+
+        "uniques": [
+            "Unbuildable",
+            "Cannot be purchased",
+            "Limited to [2] per Civilization"
+        ],
+
+        "maintenance": 0
+    }
+
+    // National wonders
+    {
+        "name": "Crisis helpline",
+
+        "maintenance": 1,
+        "cityHealth": 10,
+        "happiness": 2,
+        "faith": 2,
+
+        "requiredTech": "Radio",
+
+        "uniques": [
+            "All newly-trained [Medical] units [in this city] receive the [Words of comfort] promotion",
+            "Destroyed when the city is captured",
+            "Only available <if [Emergency service] is constructed in at least [4] of [All] cities>"
+        ],
+
+        "isNationalWonder": true,
+        "cost": 125
+    },
+    {
+        "name": "Last division",
+
+        "maintenance": 2,
+        "cityStrength": 20,
+        "cityHealth": 5,
+
+        "requiredTech": "Rifling",
+                "requiredBuilding": "Castle",
+
+        "uniques": [
+            "New [Military] units start with [15] XP [in this city]",
+            "Destroyed when the city is captured",
+            "Doubles Gold given to enemy if city is captured",
+            "[2] units cost no maintenance",
+            "Can only be built <in [in capital] cities>" 
+        ],
+
+        "isNationalWonder": true,
+        "cost": 300
+    },
+    {
+        "name": "Parliament",
+
+        "maintenance": 3,
+        "culture": 3,
+
+        "requiredTech": "Civil Service",
+        "requiredBuilding": "Monument",
+
+        "uniques": [
+            "[+1 Culture] [in all cities]",
+            "[+1 Culture, +2 Science] per [1] social policies adopted",
+            "[+10]% [Culture] [in all cities connected to capital]",
+            "[+5]% [Culture]",
+
+            "[2] Free Social Policies",
+            "[+1] population [in all cities]",
+            "Reveal up to [5] [River] within a [40] tile radius",
+
+            "Unavailable <when number of [Completed Policy branches] is less than [2]>",
+            "Requires at least [10] population",
+            "Destroyed when the city is captured",
+            "Cost increases by [30] per owned city",
+            "Cannot be purchased",
+            "Unsellable"
+        ],
+
+        "isNationalWonder": true,
+        "cost": 400
+    },
+    {
+        "name": "Puppet theater",
+
+        "maintenance": 2,
+        "culture": 5,
+        "happiness": 1,
+
+        "requiredTech": "Metal Casting",
+        "requiredBuilding": "Amphitheater",
+
+        "uniques": [
+            "[+10 Culture] per [2] social policies adopted",
+            "[+50]% [Culture]",
+            "Destroyed when the city is captured"
+        ],
+
+        "isNationalWonder": true,
+        "cost": 400
+    },
+    {
+        "name": "Cuddly toy factory",
+
+        "maintenance": 2,
+        "culture": 3,
+        "happiness": 3,
+
+        "requiredTech": "Industrialization",
+        "requiredBuilding": "Factory",
+
+        "uniques": [
+            "Requires at least [4] population",
+            "[+1 Culture] from all [Culture] buildings",
+            "Destroyed when the city is captured"
+        ],
+
+        "isNationalWonder": true,
+        "cost": 400
+    },
+    {
+        "name": "Cuddly toy repair center",
+
+        "maintenance": 2,
+        "culture": 2,
+        "happiness": 4,
+
+        "requiredTech": "Replaceable Parts",
+        "requiredBuilding": "Cuddly toy store",
+
+        "uniques": [
+            "Only available <if [Cuddly toy factory] is constructed in at least [1] of [All] cities>",
+            "Only available <if [Public School] is constructed in at least [1] of [All] cities>",
+            "Requires at least [8] population",
+            "[+1 Culture] from all [Happiness] buildings",
+            "[+1 Culture] from all [Faith] buildings",
+            "Destroyed when the city is captured"
+        ],
+
+        "isNationalWonder": true,
+        "cost": 400
+    },
+        {
+                "name": "End World Bombs",
+                "isNationalWonder": true,
+                "cost": 55000,
+                "uniques": ["Consumes [10] [Uranium]","[400]% Unhappiness from [Population] [in all cities]"]
+        },
+        {
+                "name": "Drop the bombs",
+                "isNationalWonder": true,
+                "cost": 0,
+                "uniques": ["Unbuildable","Can only be built <in [in capital] cities>","Can only be built <if [End World Bombs] is constructed>"]
+        },
+        {
+                "name": "Holy Fortress",
+                "cost": 0,
+                "faith": 3,
+                "culture": 3,
+                "happiness": 1,
+                "cityStrength": 7,
+                "cityHealth": 30,
+                "uniques": ["Destroyed when the city is captured","Unbuildable","[-15]% enemy spy effectiveness [in this city]","Only available <when religion is enabled>"]
+        },
+        {
+                "name": "Yazov Statue",
+                "cost": 0,
+                "faith": 3,
+                "culture": 7,
+                "happiness": 4,
+                "cityHealth": 10,
+                "uniques": ["Destroyed when the city is captured","[+1]% Strength <for [All] units>","Unbuildable","[+5]% [Culture] [in this city]","Only available <when religion is enabled>","Only available <after adopting [Revanchism]>"]
+        },
+        {
+                "name": "Karbyshev Statue",
+                "cost": 0,
+                "faith": 3,
+                "culture": 6,
+                "happiness": 4,
+                "cityHealth": 10,
+                "uniques": ["Destroyed when the city is captured","[+1]% Strength <for [All] units>","Unbuildable","[+5]% [Culture] [in this city]","Only available <when religion is enabled>","Only available <after adopting [Revanchism]>"]
+        },
+        {
+                "name": "Batov Statue",
+                "cost": 0,
+                "faith": 2,
+                "culture": 7,
+                "happiness": 5,
+                "cityHealth": 15,
+                "uniques": ["Destroyed when the city is captured","[+1]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>","Unbuildable","[+7]% [Culture] [in this city]","Only available <when religion is enabled>","Only available <after adopting [Paternalism]>"]
+        },
+        {
+                "name": "Ul'tra ferma",
+                "cost": 0,
+                "culture": 7,
+                "happiness": 5,
+                "food": 15,
+                "uniques": ["Destroyed when the city is captured","Unbuildable","[+10]% [Food] [in this city]","[+3]% [Culture] [in this city]","Only available <when religion is enabled>"]
+        },
+        {
+                "name": "Propaganda Center",
+                "cost": 0,
+                "culture": 4,
+                "happiness": 2,
+                "uniques": ["Destroyed when the city is captured","Unbuildable","[+15]% [Culture] [in this city]","Only available <when religion is enabled>"]
+        },
+        {
+                "name": "Block 5",
+                "cost": 0,
+                "production": 7,
+                "uniques": ["Unbuildable"]
+        },
+        {
+                "name": "Training Camp",
+                "cost": 0,
+                "uniques": ["Destroyed when the city is captured","Unbuildable","New [Military] units start with [5] XP [in this city]","Only available <when religion is enabled>"]
+        },
+        {
+                "name": "Capital Fort",
+                "uniqueTo": "Siberian Black League",
+                "replaces": "Palace",
+                "isNationalWonder": true,
+                "faith": 5,
+                "food": 4,
+                "production": 4,
+                "cityStrength": 10,
+                "cityHealth": 60,
+                "science": 3,
+                "gold": 5,
+                "culture": 7,
+                "cost": 550,
+                "uniques": ["Indicates the capital city"]
+        },
+        {
+                "name": "Large Hadron Collider",
+                "isWonder": true,
+                "cost": 1250,
+                "happiness": 3,
+                "production": 1,
+                "science": 7,
+                "specialistSlots": {"Scientist": 3},
+                "culture": 3,
+                "uniques": ["[+10]% [Science] [in all city]"],
+                "requiredTech": "Particle Physics II"
+        },
+        {
+                "name": "Komi Industries",
+                "isWonder": true,
+                "uniqueTo": "Soviet Federation of Western Russia",
+                "uniques": ["[Infrantry] units gain the [TREZUBETS] promotion","[+10]% Production when constructing [Military] units [in this city]","Only available <in cities with a [Factory]>","Can only be built <in [Capital] cities>","Automatically built in all cities where it is buildable"],
+                "requiredTech": "Adanced Factorys"
+        },
+        {
+                "name": "VR training",
+                "maintenance": 4,
+                "cost": 600,
+                "uniques": ["Destroyed when the city is captured","New [Military] units start with [25] XP [in this city]"],
+                "requiredTech": "VR"
+        },
+        {
+                "name": "Listening Post",
+                "maintenance": 1,
+                "happiness": 1,
+                "cost": 1,
+                "uniques": ["[-25]% enemy spy effectiveness [in this city]","Destroyed when the city is captured","Only available <when espionage is enabled>"],
+                "requiredTech": "Radio"
+        },
+        {
+                "name": "KGB Office",
+                "uniqueTo": "Siberian Black League",
+                "replaces": "Listening Post",
+                "maintenance": 1,
+                "happiness": 2,
+                "cost": 525,
+                "uniques": ["[-25]% enemy spy effectiveness [in this city]","Destroyed when the city is captured","Only available <when espionage is enabled>"],
+                "requiredTech": "Radio"
+        },
+        {
+                "name": "Genetic Modification Seed",
+                "isNationalWonder": true,
+                "cost": 2000,
+                "happiness": 1,
+                "food": 5,
+                "uniques": ["[+50]% [Food] [in this city]","[+25]% [Food] [in All city]","Cost increases by [30] per owned city"]
+                "requiredTech": "Bioengineering"
+        },
+        {
+                "name": "National Television",
+                "isNationalWonder": true,
+                "happiness": 4,
+                "culture": 10,
+                "gold": 3,
+                "cost": 1500,
+                "specialistSlots": {"Entertainer":10, "Artist": 5},
+                "requiredTech": "Mass Media"
+        },
+        {
+                "name": "1G Antenna",
+                "maintenance": 3,
+                "happiness": 4,
+                "culture": 10,
+                "cost": 500,
+                "specialistSlots": {"Entertainer":1, "Merchant":1, "Artist": 2},
+                "uniques": ["Destroyed when the city is captured","[+1 Gold] from each Trade Route"],
+                "requiredBuilding": "Broadcast Tower",
+                "requiredTech": "Mass Media"
+        },
+        {
+                "name": "Chemical Weapons Laboratory",
+                "isNationalWonder": true,
+                "science": 4,
+                "cityStrength": 5,
+                "cityHealth": 10,
+                "gold": 1,
+                "cost": 1500,
+                "uniques": ["All newly-trained [Gunpowder] units [in your cities] receive the [Chemical Weapons] promotion"]
+                "requiredTech": "Chemical Warfare"
+        },
+        {
+                "name": "Shooting range",
+                "maintenance": 1,
+                "hurryCostModifier": 15,
+                "requiredTech": "Rifling",
+                "requiredBuilding": "Armory",
+                "uniques": [
+                "New [Military] units start with [15] XP [in this city]",
+                "Destroyed when the city is captured"],
+                "cost": 200
+        },
+        {
+                "name": "Fortìn",
+                "cost": 300,
+                "maintenance": 1,
+                "cityStrength": 6,
+                "cityHealth": 35,
+                "uniques": ["Destroyed when the city is captured","All newly-trained [Military] units [in this city] receive the [Uniforms] promotion","New [Military] units start with [20] XP [in this city]"]
+                "requiredTech": "Architecture"
+        },
+        {
+                "name": "2G Antenna",
+                "maintenance": 1,
+                "happiness": 5,
+                "culture": 15,
+                "cost": 500,
+                "specialistSlots": {"Entertainer":1, "Merchant":1, "Artist": 2},
+                "uniques": ["Destroyed when the city is captured","[+1 Gold] from each Trade Route","[+50]% [Culture] [in this city]"],
+                "requiredBuilding": "1G Antenna",
+                "requiredTech": "Electronics"
+        },
+        {
+                "name": "3G Antenna",
+                "maintenance": 1,
+                "happiness": 5,
+                "culture": 15,
+                "cost": 600,
+                "specialistSlots": {"Entertainer":1, "Merchant":1, "Artist": 2},
+                "uniques": ["Destroyed when the city is captured","[+1 Gold] from each Trade Route","[+50]% [Culture] [in this city]"],
+                "requiredBuilding": "2G Antenna",
+                "requiredTech": "Telecommunications"
+        },
+        {
+                "name": "4G Antenna",
+                "maintenance": 1,
+                "happiness": 5,
+                "culture": 15,
+                "cost": 700,
+                "specialistSlots": {"Entertainer":1, "Merchant":1, "Artist": 2},
+                "uniques": ["Destroyed when the city is captured","[+1 Gold] from each Trade Route","[+50]% [Culture] [in this city]"],
+                "requiredBuilding": "3G Antenna",
+                "requiredTech": "Globalization"
+        },
+        {
+                "name": "5G Antenna",
+                "maintenance": 1,
+                "happiness": 5,
+                "culture": 15,
+                "cost": 800,
+                "specialistSlots": {"Entertainer":1, "Merchant":1, "Artist": 2},
+                "uniques": ["Destroyed when the city is captured","[+1 Gold] from each Trade Route","[+50]% [Culture] [in this city]"],
+                "requiredBuilding": "4G Antenna",
+                "requiredTech": "New Gen Comunications"
+        },
+        {
+                "name": "Drone factory",
+                "cost": 700,
+                "maintenance": 2,
+                "production": 3,
+                "specialistSlots": {"Engineer": 3},
+                "uniques": ["[+5]% [Culture] [in this city]"]
+                "requiredTech": "Drone Technology"
+        },
+        {
+                "name": "Delivery drones",
+                "maintenance": 3,
+                "cost": 700,
+                "happiness": 5,
+                "production": 2,
+                "food": 2,
+                "uniques": ["[+25]% [Production] [in this city]"]
+                "requiredTech": "Drone Technology"
+        },
+        {
+                "name": "3D Factory",
+                "maintenance": 4,
+                "cost": 1000,
+                "production": 3,
+                "specialistSlots": {"Engineer": 3},
+                "uniques": ["[+10]% [Food] [in this city]","[+10]% [Production] [in this city]"]
+                "requiredTech": "3D Printer Technology"
+        },
+        {
+                "name": "Crypto Bank",
+                "maintenance": 15,
+                "gold": 10,
+                "cost": 1000,
+                "uniques": ["Destroyed when the city is captured","[+2 Gold] from each Trade Route"],
+                "requiredBuilding": "4G Antenna",
+                "requiredTech": "Blockchain"
+        },
+        {
+                "name": "medieval crane",
+                "maintenance": 2,
+                "cost": 150,
+                "production": 1,
+                "specialistSlots": {"Engineer": 3},
+                "uniques": ["[+10]% [Food] [in this city]","[15]% Production when constructing [Buildings] buildings [in this city]"]
+                "requiredTech": "Physics"
+        }
+]

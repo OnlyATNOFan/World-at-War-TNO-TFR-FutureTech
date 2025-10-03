@@ -1,0 +1,684 @@
+[
+    // row - x
+    // column - y
+
+    // Row 0-10 Heal instantly
+    // 10+ Units
+    //   11-20 Generic
+    //   21-30 Frontier Hunter
+    //   31-40 Medical
+
+    // Generic attributes
+    // Mazbe add "May capture killed [Barbarians] units" somewhere
+    {
+        "name": "Loyalty I",
+        "uniques": [
+            "Uncapturable <in [Friendly Land] tiles>"
+        ],
+                "unitTypes": [
+            "Sword",
+            "Gunpowder",
+            "Mounted",
+            "Scout",
+            "Siege",
+            "Archery",
+            "Ranged Gunpowder",
+            "Armored",
+            "Melee Water",
+            "Ranged Water",
+            "Submarine",
+            "Medical",
+            "Ranged Frontier Hunter"
+        ],
+        "row": 11,
+        "column": 0
+    },
+    {
+        "name": "Loyalty II",
+        "prerequisites": ["Loyalty I"],
+        "uniques": [
+            "Uncapturable"
+        ],
+                "unitTypes": [
+            "Sword",
+            "Gunpowder",
+            "Mounted",
+            "Scout",
+            "Siege",
+            "Archery",
+            "Ranged Gunpowder",
+            "Armored",
+            "Melee Water",
+            "Ranged Water",
+            "Submarine",
+            "Medical",
+            "Ranged Frontier Hunter"
+        ],
+        "row": 11,
+        "column": 1
+    },
+    {
+        "name": "Endurance I",
+        "prerequisites": ["Loyalty I"],
+        "uniques": [
+            "[+1] Movement"
+        ],
+                "unitTypes": [
+            "Sword",
+            "Gunpowder",
+            "Mounted",
+            "Scout",
+            "Siege",
+            "Archery",
+            "Ranged Gunpowder",
+            "Armored",
+            "Melee Water",
+            "Ranged Water",
+            "Submarine",
+            "Medical",
+            "Ranged Frontier Hunter"
+        ],
+        "row": 12,
+        "column": 2
+    },
+    {
+        "name": "Endurance II",
+        "prerequisites": ["Endurance I"],
+        "uniques": [
+            "[+1] additional attacks per turn"
+        ],
+                "unitTypes": [
+            "Sword",
+            "Gunpowder",
+            "Mounted",
+            "Scout",
+            "Siege",
+            "Archery",
+            "Ranged Gunpowder",
+            "Armored",
+            "Melee Water",
+            "Ranged Water",
+            "Submarine",
+            "Medical",
+            "Ranged Frontier Hunter"
+        ],
+        "row": 12,
+        "column": 3
+    },
+    {
+        "name": "Endurance III",
+        "prerequisites": ["Endurance II"],
+        "uniques": [
+            "[+1] Range"
+        ],
+                "unitTypes": [
+            "Archery",
+            "Ranged Gunpowder",
+            "Ranged Water",
+            "Submarine",
+            "Ranged Frontier Hunter"
+        ],
+        "row": 12,
+        "column": 4
+    },
+    {
+        "name": "Capture I",
+        "uniques": [
+            "May capture killed [Civilian] units"
+        ],
+                "unitTypes": ["Ranged Frontier Hunter"],
+        "row": 13,
+        "column": 0
+    },
+    {
+        "name": "Capture II",
+        "prerequisites": ["Capture I"],
+        "uniques": [
+            "May capture killed [Military] units"
+        ],
+                "unitTypes": ["Ranged Frontier Hunter"],
+        "row": 13,
+        "column": 1
+    },
+
+    // Frontier Hunter
+    {
+        "name": "Heal Instantly",
+                "uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+                "unitTypes": ["Ranged Frontier Hunter"],
+        "row": 0,
+        "column": 0
+    },
+    {
+        "name": "Companionship I",
+                "uniques": ["[+5]% Strength bonus for [Frontier Hunter] units within [1] tiles"],
+                "unitTypes": ["Ranged Frontier Hunter"],
+        "row": 21,
+        "column": 0
+    },
+    {
+        "name": "Companionship II",
+        "prerequisites": ["Companionship I"],
+                "uniques": ["[+5]% Strength bonus for [Frontier Hunter] units within [2] tiles"],
+                "unitTypes": ["Ranged Frontier Hunter"],
+        "row": 21,
+        "column": 1
+    },
+    {
+        "name": "Companionship III",
+        "prerequisites": ["Companionship II"],
+                "uniques": ["[+10]% Strength bonus for [Frontier Hunter] units within [2] tiles"],
+                "unitTypes": ["Ranged Frontier Hunter"],
+        "row": 21,
+        "column": 2
+    },
+    {
+        "name": "Local knowledge I",
+        "uniques": [
+            "[-10]% Strength for enemy [Military] units in adjacent [Fort] tiles",
+            "[-10]% Strength for enemy [Military] units in adjacent [Rough terrain] tiles"
+        ],
+                "unitTypes": ["Ranged Frontier Hunter"],
+        "row": 22,
+        "column": 0
+    },
+    {
+        "name": "Local knowledge II",
+        "prerequisites": ["Local knowledge I"],
+        "uniques": [
+            "[+10]% Strength <in [Friendly Land] tiles>",
+            "Can see invisible [Land] units <in [Friendly Land] tiles>"
+        ],
+                "unitTypes": ["Ranged Frontier Hunter"],
+        "row": 22,
+        "column": 1
+    },
+    {
+        "name": "Local knowledge III",
+        "prerequisites": ["Local knowledge II"],
+        "uniques": [
+            "Eliminates combat penalty for attacking over a river <in [Friendly Land] tiles>",
+            "Ranged attacks may be performed over obstacles <in [Friendly Land] tiles>",
+            "Can see over obstacles <in [Friendly Land] tiles>"
+        ],
+                "unitTypes": ["Ranged Frontier Hunter"],
+        "row": 22,
+        "column": 2
+    },
+    {
+        // Currently partly broken, see https://github.com/yairm210/Unciv/issues/3242#issuecomment-1499653990
+        "name": "Local knowledge IV",
+        "prerequisites": ["Local knowledge III"],
+        "uniques": [
+            "Can see invisible [Military] units <in [Friendly Land] tiles>",
+            "Double movement in [Friendly Land]",
+            "Can enter ice tiles <in [Friendly Land] tiles>"
+        ],
+                "unitTypes": ["Ranged Frontier Hunter"],
+        "row": 22,
+        "column": 3
+    },
+
+    // Medic
+    {
+                "name": "Heal Instantly",
+                "uniques": ["[This Unit] heals [150] HP", "Doing so will consume this opportunity to choose a Promotion"],
+                "unitTypes": ["Medical"],
+        "row": 1,
+        "column": 0
+    },
+    {
+                "name": "Escape I",
+        "prerequisites": ["Grandparents knowledge"],
+                "uniques": ["[+1] Movement"],
+                "unitTypes": ["Medical"],
+        "row": 32,
+        "column": 1
+    },
+    {
+                "name": "Escape II",
+        "prerequisites": ["Escape I"],
+                "uniques": ["Ignores Zone of Control"],
+                "unitTypes": ["Medical"],
+        "row": 33,
+        "column": 2
+    },
+    {
+                "name": "Words of comfort",
+                "uniques": ["All healing effects doubled"],
+                "unitTypes": ["Medical"],
+        "row": 34,
+        "column": 0
+    },
+    {
+                "name": "Grandparents knowledge",
+                "uniques": ["Unit will heal every turn, even if it performs an action"],
+                "unitTypes": ["Medical"],
+        "row": 35,
+        "column": 0
+    },
+    {
+        "name": "Companionship",
+        "prerequisites": ["Words of comfort", "Grandparents knowledge"],
+                "uniques": ["[+1] additional attacks per turn"],
+                "unitTypes": ["Medical"],
+        "row": 36,
+        "column": 3
+    },
+        {
+                "name": "Forage",
+                "uniques": [
+                "[+4] HP when healing <in [Grassland] tiles>",
+                "[+4] HP when healing <in [Plains] tiles>",
+                "[+4] HP when healing <in [Oasis] tiles>",
+                "[+4] HP when healing <in [Jungle] tiles>",
+                "[+4] HP when healing <in [Forest] tiles>",
+                "Heals [+5] damage if it kills a Unit",
+                "[+25]% XP gained from combat"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder","Mounted","Light Armored","Heavy Armored","Modern Armored","Armored","Archery","Ranged Gunpowder","Militia"],
+        "column": 39,
+        "row": 1
+        },
+        {
+                "name": "Rummage",
+                "uniques": ["Earn [+10]% of killed [Military] unit's [Strength] as [Gold]",
+                "Earn [+5]% of killed [Military] unit's [Strength] as [Science]",
+                "Heals [+10] damage if it kills a Unit",
+                "[+25]% XP gained from combat"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder","Mounted","Light Armored","Heavy Armored","Modern Armored","Armored","Militia"],
+        "column": 39,
+        "row": 2
+        },
+        {
+                "name": "Drone Support",
+                "uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>",
+                "[+20]% Strength <when fighting in [Rough terrain] tiles>",
+                "[+50]% XP gained from combat",
+                "Only available <if [Drone factory] is constructed>"],
+                "unitTypes": ["Gunpowder","Armored","Light Armored","Heavy Armored"],
+        "column": 41,
+        "row": 1
+        },
+        {
+                "name": "Shock I",
+                "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+                "unitTypes": ["Sword","Gunpowder","Mounted","Light Armored","Heavy Armored","Modern Armored","Armored"],
+        "column": 4,
+        "row": 1
+        },
+        {
+                "name": "Shock II",
+                "prerequisites": ["Shock I"],
+                "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+                "unitTypes": ["Sword","Gunpowder","Mounted","Armored","Light Armored","Heavy Armored","Modern Armored"],
+        "column": 4,
+        "row": 2
+        },
+        {
+                "name": "Shock III",
+                "prerequisites": ["Shock II"],
+                "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+                "unitTypes": ["Sword","Gunpowder","Mounted","Armored","Light Armored","Heavy Armored","Modern Armored"],
+        "column": 4,
+        "row": 3
+        },
+        {
+                "name": "Shock IV",
+                "prerequisites": ["Shock III"],
+                "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+                "unitTypes": ["Sword","Gunpowder","Mounted","Armored","Light Armored","Heavy Armored","Modern Armored"],
+        "column": 4,
+        "row": 4
+        },
+        {
+                "name": "Drill I",
+                "uniques": ["[+10]% Strength <when fighting in [Rough terrain] tiles>"],
+                "unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+        "column": 5,
+        "row": 1
+        },
+        {
+                "name": "Drill II",
+                "prerequisites": ["Drill I"],
+                "uniques": ["[+10]% Strength <when fighting in [Rough terrain] tiles>"],
+                "unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+        "column": 5,
+        "row": 2
+        },
+        {
+                "name": "Drill III",
+                "prerequisites": ["Drill II"],
+                "uniques": ["[+10]% Strength <when fighting in [Rough terrain] tiles>"],
+                "unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+        "column": 5,
+        "row": 3
+        },
+        {
+                "name": "Drill IV",
+                "prerequisites": ["Drill III"],
+                "uniques": ["[+10]% Strength <when fighting in [Rough terrain] tiles>"],
+                "unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+        "column": 5,
+        "row": 4
+        },
+        {
+                "name": "Winter fighter I",
+                "uniques": ["[+20]% Strength <when fighting in [Tundra] tiles>","[+10]% Strength <when fighting in [Snow] tiles>"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder"],
+        "column": 35,
+        "row": 1
+        },
+        {
+                "name": "Winter fighter II",
+                "prerequisites": ["Winter fighter I"],
+                "uniques": ["[+20]% Strength <when fighting in [Tundra] tiles>","[+15]% Strength <when fighting in [Snow] tiles>"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder"],
+        "column": 35,
+        "row": 2
+        },
+        {
+                "name": "Winter fighter III",
+                "prerequisites": ["Winter fighter II"],
+                "uniques": ["[+20]% Strength <when fighting in [Tundra] tiles>","[+15]% Strength <when fighting in [Snow] tiles>","[+25]% XP gained from combat"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder"],
+        "column": 35,
+        "row": 3
+        },
+        {
+                "name": "Mountaieer I",
+                "uniques": ["[+20]% Strength <when fighting in [Hill] tiles>"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder"],
+        "column": 38,
+        "row": 1
+        },
+        {
+                "name": "Mountaieer II",
+                "prerequisites": ["Mountaieer I"],
+                "uniques": ["[+20]% Strength <when fighting in [Hill] tiles>"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder"],
+        "column": 38,
+        "row": 2
+        },
+        {
+                "name": "Mountaieer III",
+                "prerequisites": ["Mountaieer II"],
+                "uniques": ["[+30]% Strength <when fighting in [Hill] tiles>","[-40]% Strength <when fighting in [Open terrain] tiles> <before adopting [Veteran]>","Double movement in [Hill]","[+25]% XP gained from combat"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder"],
+        "column": 38,
+        "row": 3
+        },
+        {
+                "name": "Jungle Specialisation I",
+                "uniques": ["[+20]% Strength <when fighting in [Jungle] tiles>"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder"],
+        "column": 40,
+        "row": 1
+        },
+        {
+                "name": "Jungle Specialisation II",
+                "prerequisites": ["Jungle Specialisation I"],
+                "uniques": ["[+20]% Strength <when fighting in [Jungle] tiles>"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder"],
+        "column": 40,
+        "row": 2
+        },
+        {
+                "name": "Jungle Specialisation III",
+                "prerequisites": ["Jungle Specialisation II"],
+                "uniques": ["[+30]% Strength <when fighting in [Jungle] tiles>","[-40]% Strength <when fighting in [Open terrain] tiles> <before adopting [Veteran]>","Double movement in [Jungle]","[+25]% XP gained from combat"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder"],
+        "column": 40,
+        "row": 3
+        },
+        {
+                "name": "Desert fighter I",
+                "uniques": ["[+15]% Strength <when fighting in [Desert] tiles>"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder"],
+        "column": 43,
+        "row": 1
+        },
+        {
+                "name": "Desert fighter II",
+                "prerequisites": ["Desert fighter I"],
+                "uniques": ["[+20]% Strength <when fighting in [Desert] tiles>"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder"],
+        "column": 43,
+        "row": 2
+        },
+        {
+                "name": "Desert fighter III",
+                "prerequisites": ["Desert fighter II"],
+                "uniques": ["[+20]% Strength <when fighting in [Desert] tiles>","[+25]% XP gained from combat"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder"],
+        "column": 43,
+        "row": 3
+        },
+        {
+                "name": "Veteran",
+                "prerequisites": ["Desert fighter III","Winter fighter III","Mountaieer III","Forest Specialisation III","Jungle Specialisation III","Fighting in grasslands III"],
+                "uniques": ["This Promotion is free","Only available <after adopting [Desert fighter III]>","Only available <after adopting [Winter fighter III]>","Only available <after adopting [Mountaieer III]>","Only available <after adopting [Forest Specialisation III]>","Only available <after adopting [Jungle Specialisation III]>","Only available <after adopting [Fighting in grasslands III]>","[+400]% XP gained from combat","[+50]% Strength"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder"],
+        "column": 41,
+        "row": 4
+        },
+        {
+                "name": "Fighting in grasslands I",
+                "uniques": ["[+30]% Strength <when fighting in [Grassland] tiles>","[+20]% Strength <when fighting in [Plains] tiles>"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder"],
+        "column": 42,
+        "row": 1
+        },
+        {
+                "name": "Fighting in grasslands II",
+                "prerequisites": ["Fighting in grasslands I"],
+                "uniques": ["[+30]% Strength <when fighting in [Grassland] tiles>","[+20]% Strength <when fighting in [Plains] tiles>"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder"],
+        "column": 42,
+        "row": 2
+        },
+        {
+                "name": "Fighting in grasslands III",
+                "prerequisites": ["Fighting in grasslands II"],
+                "uniques": ["[+30]% Strength <when fighting in [Grassland] tiles>","[+20]% Strength <when fighting in [Plains] tiles>","[+25]% XP gained from combat"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder"],
+        "column": 42,
+        "row": 3
+        },
+        {
+                "name": "Forest Specialisation I",
+                "uniques": ["[+20]% Strength <when fighting in [Forest] tiles>"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder"],
+        "column": 36,
+        "row": 1
+        },
+        {
+                "name": "Forest Specialisation II",
+                "prerequisites": ["Forest Specialisation I"],
+                "uniques": ["[+20]% Strength <when fighting in [Forest] tiles>"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder"],
+        "column": 36,
+        "row": 2
+        },
+        {
+                "name": "Forest Specialisation III",
+                "prerequisites": ["Forest Specialisation II"],
+                "uniques": ["[+30]% Strength <when fighting in [Forest] tiles>","[-40]% Strength <when fighting in [Open terrain] tiles> <before adopting [Veteran]>","Double movement in [Forest]","[+25]% XP gained from combat"],
+                "unitTypes": ["Anti Cavalry","Sword","Gunpowder"],
+        "column": 36,
+        "row": 3
+        },
+        {
+                "name": "Cover I",
+                "uniques": ["[+33]% Strength <vs [Archery] units> <when defending>","[+33]% Strength <vs [Mounted Ranged] units> <when defending>","[+25]% Strength <vs [Ranged Gunpowder] units> <when defending>","[+5]% Strength <vs [Gunpowder] units> <when defending>","[+33]% Strength <vs [Ranged] units> <when defending>"]
+                "unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Lord Melee"]
+        },
+        {
+                "name": "Cover II",
+                "prerequisites": ["Cover I"],
+                "uniques": ["[+33]% Strength <vs [Archery] units> <when defending>","[+33]% Strength <vs [Mounted Ranged] units> <when defending>","[+25]% Strength <vs [Ranged Gunpowder] units> <when defending>","[+5]% Strength <vs [Gunpowder] units> <when defending>","[+33]% Strength <vs [Ranged] units> <when defending>"],
+                "unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Lord Melee"]
+        },
+        {
+                "name": "Gas Mask",
+                "uniques": ["Only available <after discovering [Chemical Warfare]>",]
+                "unitTypes": ["Sword","Armored","Militia","Ranged Frontier Hunter","Mounted","Scout","Archery","Ranged Gunpowder","Gunpowder","Siege"]
+        },
+        {
+                "name": "Shovel Assault",
+                "uniques": ["[+5]% Strength <vs [All] units>"]
+        },
+        {
+                "name": "Fueled by Hate",
+                "uniques": ["Earn [+5]% of killed [Military] unit's [Strength] as [Gold]",
+                        "Can move immediately once bought",
+                        "[+15]% Strength <vs [All] units>",
+                        "Uncapturable"]
+        },
+        {
+                "name": "Blood Lovers",
+                "uniques": ["Earn [25]% of killed [Military] unit's [Strength] as [Gold]",
+                        "Heals [10] damage if it kills a unit",
+                        "[+10]% Strength <vs [All] units>",
+                        "Uncapturable"]
+        },
+        {
+                "name": "Free Aviators",
+                "uniques": ["[+25]% Strength <vs [All] units>"]
+        },
+        {
+                "name": "Iskupitelnaya",
+                "uniques": ["Earn [5]% of killed [Military] unit's [Strength] as [Science]","Earn [+25]% of killed [Military] unit's [Strength] as [Culture]","Earn [+15]% of killed [Military] unit's [Strength] as [Gold]"]
+        },
+        {
+                "name": "Hazard Pay",
+                "uniques": ["Earn [+10]% of killed [Military] unit's [Strength] as [Gold]"]
+        },
+        {
+                "name": "Liberty",
+                "uniques": ["Can move immediately once bought",
+                        "[+17]% Strength <vs [All] units>",
+                        "Uncapturable"]
+        },
+        {
+                "name": "KGB training",
+                "uniques": ["Can move immediately once bought",
+                        "[+20]% Strength <vs [All] units>",
+                        "Uncapturable",
+                        "[+50]% XP gained from combat"]
+        },
+        {
+                "name": "TREZUBETS",
+                "uniques": [
+                        "[+15]% Strength <vs cities>",
+                        "Only available <if [Komi Industries] is constructed>",
+                        "[+10]% Strength <vs [All] units>"
+                ],
+                "unitTypes": ["Gunpowder","Ranged Frontier Hunter","Ranged Gunpowder","Militia","Sword"]
+        },
+        {
+                "name": "Terror",
+                "uniques": ["[+20]% Strength <vs [All] units>",
+                        "Uncapturable"]
+        },
+        {
+                "name": "Genetic Modifications",
+                "uniques": ["Unit will heal every turn, even if it performs an action"]
+        },
+        {
+                "name": "The Last Stand Order",
+                "uniques": ["[This Unit] gains the [The Last Stand] status for [7] turn(s)","Doing so will consume this opportunity to choose a Promotion"],
+                "unitTypes": ["Sword","Armored","Militia","Ranged Frontier Hunter","Mounted","Scout","Archery","Ranged Gunpowder","Gunpowder","Siege","Water Ranged","Ranged Water"]
+        },
+        {
+                "name": "The Last Stand",
+                "uniques": ["[6] Movement","[-10]% Strength <with [5]% chance>","[+5]% Strength <with [35]% chance>","[+10]% Strength <with [20]% chance>","[+20]% Strength <with [10]% chance>","[+45]% Strength <with [5]% chance>","[+90]% Strength <with [4]% chance>","[+170]% Strength <with [1]% chance>","Heals [20] damage if it kills a unit","[4] additional attacks per turn","Can move after attacking","[This Unit] gains [6] movement","[50]% XP gained from combat"]
+        },
+        {
+                "name": "Chemical Weapons",
+                "uniques": ["[+25]% Strength <vs [Armored] units> <for units without [Gas Mask]>",
+                "[+5]% Strength <vs [Demon] units> <for units without [Gas Mask]>",
+                "[+100]% Strength <vs [Militia] units> <for units without [Gas Mask]>",
+                "[+100]% Strength <vs [Ranged Frontier Hunter] units> <for units without [Gas Mask]>",
+                "[+100]% Strength <vs [Sword] units> <for units without [Gas Mask]>",
+                "[+50]% Strength <vs [Ranged Gunpowder] units> <for units without [Gas Mask]>",
+                "[+25]% Strength <vs [Siege] units> <for units without [Gas Mask]>",
+                "[+100]% Strength <vs [Mounted] units> <for units without [Gas Mask]>",
+                "[+100]% Strength <vs [Scout] units> <for units without [Gas Mask]>",
+                "[+100]% Strength <vs [Archery] units> <for units without [Gas Mask]>",
+			"[+100]% Strength <vs [Gunpowder] units> <for units without [Gas Mask]>",
+			"[+50]% Strength <vs cities>",
+			"Only available <if [Chemical Weapons Laboratory] is constructed>"],
+                "unitTypes": ["Gunpowder"]
+        },
+        {
+                "name": "AntiTank Rifle",
+                "uniques": ["[+15]% Strength <vs [Armored] units>",
+                "Only available <after discovering [Rifling]>",
+                "[+5]% Strength <vs cities> <when attacking>"],
+                "unitTypes": ["Gunpowder"]
+        },
+        {
+                "name": "Mortar",
+                "uniques": ["[+10]% Strength <when attacking>",
+                "Only available <after discovering [Dynamite]>",
+                "[+25]% Strength <vs cities> <when attacking>"],
+                "unitTypes": ["Gunpowder"]
+        },
+        {
+                "name": "White Phosphorus Munitions",
+                "prerequisites": ["Mortar", "Logistics"],
+                "uniques": ["[+50]% Strength <when attacking>",
+                "[+50]% Strength <vs cities> <when attacking>",
+                "Only available <if [Chemical Weapons Laboratory] is constructed>"],
+                "unitTypes": ["Ranged Gunpowder","Gunpowder","Siege","Water Ranged","Ranged Water"]
+        },
+        {
+                "name": "Uniforms",
+                "uniques": ["[+10]% Strength",
+                "[+50]% Strength <vs cities> <when attacking>",
+                "Only available <if [Fortìn] is constructed in at least [5] of [in all cities] cities>"],
+                "unitTypes": ["Sword","Armored","Militia","Ranged Frontier Hunter","Mounted","Scout","Archery","Ranged Gunpowder","Gunpowder","Siege","Water Ranged","Ranged Water"]
+        },
+        {
+                "name": "Sweeper",
+                "uniques": ["[+10]% Strength",
+                "[+50]% Strength <vs cities> <when attacking>",
+                "Only available <if [buildingFilter] is constructed in at least [5] of [in all cities] cities>"],
+                "unitTypes": ["Gunpowder"]
+        },
+        //Militia
+        {
+                "name": "Battlefield Survival I",
+                "uniques": ["Unit will heal every turn, even if it performs an action", "[+10] HP when healing", "[+25]% XP gained from combat"],
+                "unitTypes": ["Militia"]
+        },
+        {
+                "name": "Defender I",
+                "uniques": ["[+20]% Strength <when defending>", "[+25]% XP gained from combat"],
+                "unitTypes": ["Militia"]
+        },
+        {
+                "name": "Battlefield Survival II",
+                "uniques": ["Heals [20] damage if it kills a Unit", "[+20]% Strength <when attacking>"],
+                "prerequisites": ["Battlefield Survival I", "Defender I"],
+                "unitTypes": ["Militia"]
+        },
+        {
+                "name": "Defender II",
+                "uniques": ["All adjacent units heal [10] extra HP when healing", "[+30]% Strength <when defending>"],
+                "prerequisites": ["Battlefield Survival I", "Defender I"],
+                "unitTypes": ["Militia"]
+        },
+        {
+                "name": "Special Promotion",
+                "uniques": ["May capture killed [Military] units"],
+                "prerequisites": ["Battlefield Survival II", "Defender II"],
+                "unitTypes": ["Militia"]
+        },
+        //Specials
+        {
+                "name": "Mexican Cartel",
+                "uniques": ["May capture killed [Barbarians] units <with [10]% chance>","May capture killed [Military] units <with [15]% chance>","Earn [+10]% of killed [Military] unit's [Strength] as [Gold]"],
+                "prerequisites": ["Battlefield Survival II", "Defender II"]
+        }
+]

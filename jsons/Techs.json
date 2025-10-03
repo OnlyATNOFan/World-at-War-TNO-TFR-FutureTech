@@ -1,0 +1,426 @@
+[
+
+        {
+                "columnNumber": 11,
+                "era": "Modern era",
+                "techCost": 3100,
+                "buildingCost": 700,
+                "wonderCost": 1500,
+                "techs": [
+                        {
+                                "name": "Refrigeration",
+                                "row": 2,
+                                "prerequisites": ["Biology", "Electricity"], 
+                                "quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
+                        },
+                        {
+                                "name": "Radio",
+                                "row": 3,
+                                "prerequisites": ["Electricity"],
+                                "quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
+                        },
+                        {
+                                "name": "Replaceable Parts",
+                                "row": 4,
+                                "prerequisites": ["Electricity","Steam Power"],
+                                "quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
+                        },
+                        {
+                                "name": "Chemical Warfare",
+                                "row": 5,
+                                "prerequisites": ["Steam Power"],
+                                "quote": "'The possibilities of doing research on poison gas are endless.' - Fritz Haber"
+                        },
+                        {
+                                "name": "Flight",
+                                "row": 6,
+                                "prerequisites": ["Steam Power"],
+                                "quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
+                        },
+                        {
+                                "name": "Railroads",
+                                "row": 8,
+                                "prerequisites": ["Steam Power","Dynamite"],
+                                "quote": "'The introduction of so powerful an aGent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
+                        }
+                ]
+        },        {
+                "columnNumber": 12,
+                "era":"Modern era",
+                "techCost": 3500,
+                "buildingCost": 500,
+                "wonderCost": 1100,
+                "techs": [
+                        {
+                                "name": "Adanced Factorys",
+                                "row": 3,
+                                "precipices": ["Refrigeration","Radio","Replaceable Parts"],
+                                "prerequisites": ["Refrigeration","Replaceable Parts","Radio"],
+                                "quote": "'a lot of advancement has been made in the factorys'"
+                        },
+                        {
+                                "name": "Adanced Medication",
+                                "row": 5,
+                                "precipices": ["Flight","Replaceable Parts","Chemical Warfare"],
+                                "prerequisites": ["Flight","Replaceable Parts","Chemical Warfare"],
+                                "quote": "'a lot of advancement has been made in the factorys'"
+                        },
+                        {
+                                "name": "Political Power",
+                                "row": 7,
+                                "precipices": ["Radio","Railroads"],
+                                "prerequisites": ["Railroads"],
+                                "quote": "'a lot of advancement has been made in the factorys'"
+                        },
+                        {
+                                "name": "Ballistics",
+                                "row": 6,
+                                "prerequisites": ["Flight"],
+                                "quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
+                        },
+                        {
+                                "name": "Combustion",
+                                "row": 8,
+                                "prerequisites": ["Railroads"],
+                                "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
+                        }
+                ]
+        },
+        {
+                "columnNumber": 13,
+                "era": "Atomic era",
+                "techCost": 4100,
+                "buildingCost": 500,
+                "wonderCost": 1250,
+                "techs": [
+                        {
+                                "name": "Plastics",
+                                "row": 3,
+                                "prerequisites": ["Adanced Factorys"],
+                                "quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
+                        },
+                        {
+                                "name": "Electronics",
+                                "row": 5,
+                                "prerequisites": ["Adanced Medication"],
+                                "quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
+                        }
+                ]
+        },
+        {
+                "columnNumber": 13,
+                "era": "Atomic era",
+                "techCost": 5100,
+                "buildingCost": 500,
+                "wonderCost": 1250,
+                "techs": [
+                        {
+                                "name": "Pharmaceuticals",
+                                "row": 2,
+                                "prerequisites": ["Adanced Factorys","Adanced Medication"],
+                                "quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
+                        },
+                        {
+                                "name": "Atomic Theory",
+                                "row": 4,
+                                "prerequisites": ["Adanced Medication"],
+                                "quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
+                        },
+                        {
+                                "name": "Mass Media",
+                                "row": 7,
+                                "prerequisites": ["Adanced Factorys","Political Power"],
+                                "quote": "'The speed of communications is wondrous to behold, it is also true that speed does multiply the distribution of information that we know to be untrue.' – Edward R. Murrow"
+                        },
+                        {
+                                "name": "Radar",
+                                "row": 6,
+                                "prerequisites": ["Political Power","Ballistics"],
+                                "quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
+                        },
+                        {
+                                "name": "Combined Arms",
+                                "row": 8,
+                                "prerequisites": ["Political Power","Combustion"],
+                                "quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
+                        }
+                ]
+        },
+        {
+                "columnNumber": 14,
+                "era": "Atomic era",
+                "techCost": 6400,
+                "buildingCost": 360,
+                "wonderCost": 1250,
+                "techs": [
+                        {
+                                "name": "Ecology",
+                                "row": 2,
+                                "prerequisites": ["Plastics","Pharmaceuticals"],
+                                "quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson"
+                        },
+                        {
+                                "name": "Computers",
+                                "row": 4,
+                                "prerequisites": ["Electronics","Mass Media","Radar"],
+                                "quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
+                        },
+                        {
+                                "name": "Rocketry",
+                                "row": 6,
+                                "prerequisites": ["Combined Arms","Radar"],
+                                "quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
+                        },
+                        {
+                                "name": "Lasers",
+                                "row": 8,
+                                "prerequisites": ["Combined Arms","Radar"],
+                                "quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
+                        },
+                        {
+                                "name": "Nuclear Fission",
+                                "row": 10,
+                                "prerequisites": ["Atomic Theory"],
+                                "quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer"
+                        }
+                ]
+        },
+        {
+                "columnNumber": 17,
+                "era": "Future era",
+                "techCost": 10000,
+                "buildingCost": 700,
+                "wonderCost": 1250,
+                "techs": [
+                        {
+                                "name": "Particle Physics II",
+                                "row": 1,
+                                "prerequisites": ["Globalization", "Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"], 
+                                "quote": ""
+                        },
+                        {
+                                "name": "Pharmaceuticals II",
+                                "row": 11,
+                                "prerequisites": ["Globalization", "Particle Physics", "Nanotechnology"], 
+                                "quote": ""
+                        }
+                ]
+        },
+        {
+                "columnNumber": 18,
+                "era": "Satelital War era",
+                "techCost": 15000,
+                "buildingCost": 700,
+                "wonderCost": 1500,
+                "techs": [
+                        {
+                                "name": "Drone Technology",
+                                "row": 3,
+                                "prerequisites": ["Globalization", "Particle Physics II"], 
+                                "quote": ""
+                        },
+                        {
+                                "name": "3D Printer Technology",
+                                "row": 5,
+                                "prerequisites": ["Globalization", "Nuclear Fusion", "Nanotechnology", "Stealth", "Particle Physics II","Pharmaceuticals II"],
+                                "quote": "In a time not distant, it will be possible to flash any image formed in thought on a screen and render it visible at any place desired -Nikola Tesla"
+                        },
+                        {
+                                "name": "Blockchain",
+                                "row": 6,
+                                "prerequisites": ["Globalization", "Nuclear Fusion", "Nanotechnology", "Stealth", "Particle Physics II"],
+                                "quote": "In a time not distant, it will be possible to flash any image formed in thought on a screen and render it visible at any place desired -Nikola Tesla"
+                        }
+                ]
+        },
+        {
+                "columnNumber": 19,
+                "era": "Satelital War era",
+                "techCost": 17500,
+                "buildingCost": 700,
+                "wonderCost": 1500,
+                "techs": [
+                        {
+                                "name": "Future Tactics",
+                                "row": 4,
+                                "prerequisites": ["Drone Technology", "3D Printer Technology"], 
+                                "quote": "The Satelital war... begins..."
+                        },
+                        {
+                                "name": "New Gen Comunications",
+                                "row": 6,
+                                "prerequisites": ["Drone Technology", "3D Printer Technology", "Blockchain"],
+                                "quote": "In a time not distant, it will be possible to flash any image formed in thought on a screen and render it visible at any place desired -Nikola Tesla"
+                        }
+                ]
+        },
+        {
+                "columnNumber": 20,
+                "era": "Satelital War era",
+                "techCost": 20000,
+                "buildingCost": 600,
+                "wonderCost": 1700,
+                "techs": [
+                        {
+                                "name": "Pharmaceuticals III",
+                                "row": 4,
+                                "prerequisites": ["Future Tactics", "New Gen Comunications"], 
+                                "quote": "Unlimited potential..."
+                        },
+                        {
+                                "name": "Quantum Computing Technology (Level 0)",
+                                "row": 6,
+                                "prerequisites": ["Future Tactics", "New Gen Comunications"], 
+                                "quote": "Who knows what the future holds?"
+                        }
+                ]
+        },
+        {
+                "columnNumber": 21,
+                "era": "Satelital War era",
+                "techCost": 22500,
+                "buildingCost": 700,
+                "wonderCost": 2000,
+                "techs": [
+
+                        {
+                                "name": "New Gen Ballistics",
+                                "row": 3,
+                                "prerequisites": ["Quantum Computing Technology (Level 0)","Pharmaceuticals III"],
+                                "quote": "Science is but a perversion of itself unless it has as its ultimate goal the betterment of humanity - Nikola Tesla"
+                        },
+                        {
+                                "name": "New Gen Engineering",
+                                "row": 5,
+                                "prerequisites": ["Quantum Computing Technology (Level 0)","Pharmaceuticals III"],
+                                "quote": "All our knowledge - past, present and future, is nothing compared to what we will never know"
+                        },
+                        {
+                                "name": "New Gen Aerospace Engineering",
+                                "row": 7,
+                                "prerequisites": ["Quantum Computing Technology (Level 0)","Pharmaceuticals III"],
+                                "quote": "All our knowledge - past, present and future, is nothing compared to what we will never know—Konstantin Tsiolkovsky"
+                        }
+                ]
+        },
+        {
+                "columnNumber": 22,
+                "era": "Satelital War era",
+                "techCost": 25000,
+                "buildingCost": 800,
+                "wonderCost": 2100,
+                "techs": [
+                        {
+                                "name": "Artificial Inteligence Advance",
+                                "row": 4,
+                                "prerequisites": ["New Gen Ballistics","New Gen Engineering","New Gen Aerospace Engineering"],
+                                "quote": "Al will not replace humans, but those who use Al will replace those who don't. - Ginni Rometty"
+                        }
+                ]
+        },
+        {
+                "columnNumber": 23,
+                "era": "Age of Chaos",
+                "techCost": 27500,
+                "buildingCost": 900,
+                "wonderCost": 2400,
+                "techs": [
+                        {
+                                "name": "Proximal Defece Sistem",
+                                "row": 2,
+                                "prerequisites": ["New Gen Ballistics","Artificial Inteligence Advance"],
+                                "quote": "Invincibility lies in the defense; the possibility of victory in the attack. - Sun Tzu"
+                        },
+                        {
+                                "name": "Bioengineering",
+                                "row": 4,
+                                "prerequisites": ["Artificial Inteligence Advance"],
+                                "quote": ""
+                        },
+                        {
+                                "name": "VR",
+                                "row": 6,
+                                "prerequisites": ["Artificial Inteligence Advance","New Gen Aerospace Engineering","New Gen Engineering"],
+                                "quote": ""
+                        },
+                        {
+                                "name": "Synthetic Food",
+                                "row": 7,
+                                "prerequisites": ["Artificial Inteligence Advance","New Gen Aerospace Engineering","New Gen Engineering"],
+                                "quote": ""
+                        }
+                ]
+        },
+        {
+                "columnNumber": 24,
+                "era": "Age of Chaos",
+                "techCost": 30000,
+                "buildingCost": 1000,
+                "wonderCost": 2700,
+                "techs": [
+                        {
+                                "name": "Autonomic Balitics",
+                                "row": 2,
+                                "prerequisites": ["Proximal Defece Sistem","VR"],
+                                "quote": ""
+                        },
+                        {
+                                "name": "Autonomous Drones",
+                                "row": 4,
+                                "prerequisites": ["Proximal Defece Sistem","Bioengineering","VR"],
+                                "quote": ""
+                        },
+                        {
+                                "name": "Genetic Modification",
+                                "row": 6,
+                                "prerequisites": ["Bioengineering"],
+                                "quote": ""
+                        },
+                        {
+                                "name": "New Gen equipment",
+                                "row": 8,
+                                "prerequisites": ["New Gen Aerospace Engineering","Synthetic Food","VR"],
+                                "quote": ""
+                        }
+                ]
+        },
+        {
+                "columnNumber": 25,
+                "era": "Age of Chaos",
+                "techCost": 32500,
+                "buildingCost": 1100,
+                "wonderCost": 3000,
+                "techs": [
+                        {
+                                "name": "Artificial Superconductor",
+                                "row": 2,
+                                "prerequisites": ["Autonomic Balitics","Autonomous Drones"],
+                                "quote": ""
+                        },
+                        {
+                                "name": "Stealth II",
+                                "row": 4,
+                                "prerequisites": ["Autonomic Balitics","Autonomous Drones","New Gen equipment"],
+                                "quote": ""
+                        },
+                        {
+                                "name": "Pharmaceuticals IV",
+                                "row": 5,
+                                "prerequisites": ["Genetic Modification"],
+                                "quote": ""
+                        },
+                        {
+                                "name": "Ecology II",
+                                "row": 6,
+                                "prerequisites": ["Autonomous Drones","Genetic Modification","New Gen equipment"],
+                                "quote": ""
+                        },
+                        {
+                                "name": "New Gen Comunications II",
+                                "row": 8,
+                                "prerequisites": ["Autonomic Balitics","Autonomous Drones","Genetic Modification","New Gen equipment"],
+                                "quote": ""
+                        }
+                ]
+        }
+ ]

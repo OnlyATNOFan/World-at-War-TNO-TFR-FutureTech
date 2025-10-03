@@ -1,0 +1,64 @@
+[
+        {
+        "name": "Desire for revenge",
+        "type": "Pantheon",
+        "uniques": [
+            "Only available <after adopting [Revanchism]>",
+            "[+1 Food, +1 Production, +1 Gold, +2 Happiness, +1 Faith, +2 Culture] per [10] population [in all cities]",
+            "[+5]% Strength <for [All] units>",
+            "[+2 Food, +1 Production, +2 Gold, +5 Happiness, +1 Faith, +1 Science, +4 Culture] per [5] population [in capital]"
+        ]
+        },
+        {
+                "name": "Great Trial Awaits...",
+                "type": "Founder",
+                "uniques": [
+                        "[+4 Culture, +1 Production, +2 Faith] from every [4] global followers [in all cities]",
+                        "Only available <after adopting [Revanchism]>"
+                ]
+        },
+        {
+                "name": "Mega Infrastructure",
+                "type": "Follower",
+                "uniques": [
+                        "May buy [Holy Fortress] buildings for [1000] [Faith] [in cities following this religion] <after adopting [Revanchism Complete]>",
+                        "May buy [Propaganda Center] buildings for [1000] [Faith] [in cities following this religion] <after adopting [Revanchism Complete]>",
+                        "May buy [Ul'tra ferma] buildings for [1200] [Faith] [in cities following this religion] <after adopting [Revanchism Complete]>",
+                        "May buy [Batov Statue] buildings for [1500] [Faith] [in cities following this religion] <after adopting [Revanchism Complete]>",
+                        "May buy [Yazov Statue] buildings for [1500] [Faith] [in cities following this religion] <after adopting [Revanchism Complete]>",
+                        "May buy [Karbyshev Statue] buildings for [1500] [Faith] [in cities following this religion] <after adopting [Revanchism Complete]>",
+                        "May buy [Block 5] buildings for [1000] [Faith] [in cities following this religion] <after adopting [Revanchism Complete]>",
+                        "May buy [Training Camp] buildings for [1000] [Faith] [in cities following this religion] <after adopting [Revanchism Complete]>",
+                        "Only available <after adopting [Revanchism]>"
+                ]
+        },
+        {
+                "name": "Ultranationalism",
+                "type": "Follower",
+                "uniques": [
+                        "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+                        "Only available <after adopting [Revanchism]>"
+                ]
+        },
+        {
+                "name": "The Great Trial",
+                "type": "Enhancer",
+                "uniques": [
+                        "Earn [20]% of killed [Military] unit's [Strength] as [Gold]",
+                        "Earn [75]% of killed [Military] unit's [Strength] as [Culture]",
+                        "[+25]% Strength <for [All] units>",
+                        "[+10]% Strength <vs [Barbarians] units>",
+                        "Only available <after adopting [Revanchism]>"
+                ]
+        },
+        {
+                "name": "Victory or Die",
+                "type": "Enhancer",
+                "uniques": [
+                        "Earn [15]% of killed [Military] unit's [Strength] as [Gold]",
+                        "Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
+                        "[+20]% Strength <for [All] units>",
+                        "[+5]% Strength <vs [Barbarians] units>"
+                ]
+        }
+]
