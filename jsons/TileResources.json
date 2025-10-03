@@ -250,20 +250,6 @@
 			"Doesn't generate naturally <in [Hill] tiles>"]
 	},
 	{
-		"name": "Prickly Pear",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Scrub"],
-		"gold": 2,
-		"food": 1,
-		"improvement": "Plantation",
-		"improvementStats": {"gold": 1, "food": 1},
-		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
-			"Generated with weight [5] <in [Jungle] Regions>",
-			"Generated with weight [30] <in [Forest] Regions>",
-			"Generated near City States with weight [10]",
-			"Doesn't generate naturally <in [Hill] tiles>"]
-	},
-	{
 		"name": "Gems",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill"],
