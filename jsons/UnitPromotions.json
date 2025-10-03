@@ -681,4 +681,134 @@
                 "uniques": ["May capture killed [Barbarians] units <with [10]% chance>","May capture killed [Military] units <with [15]% chance>","Earn [+10]% of killed [Military] unit's [Strength] as [Gold]"],
                 "prerequisites": ["Battlefield Survival II", "Defender II"]
         }
+        // Uniques that should be kept on upgrades
+        {
+		        "name": "Morale", // Heroic Epic
+		        "uniques": ["[+15]% Strength"]
+        },
+        {
+		        "name": "Great Generals I", // only for Companion Cavalry, Keshik and their subsequent upgrades
+		        "uniques": ["[Great General] is earned [50]% faster"]
+        },
+        {
+		        "name": "Great Generals II", // only for Samurai and subsequent upgrades
+		        "uniques": ["[Great General] is earned [100]% faster"]
+        },
+        {
+		        "name": "Quick Study", // only for Keshik and subsequent upgrades
+		        "uniques": ["[+50]% XP gained from combat"]
+		},
+		{
+		        "name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
+		        "uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
+        },
+        {
+		        "name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
+		        "uniques": ["All healing effects doubled"]
+        },
+        {
+		        "name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
+		        "uniques": ["May withdraw before melee ([80]%)"]
+        },
+        {
+		        "name": "Ignore terrain cost",
+		        "uniques": ["Ignores terrain cost"]
+        },
+        {
+		        "name": "Pictish Courage", // only for Pictish Warrior and subsequent upgrades
+		        "uniques": ["No movement cost to pillage", "[+20]% Strength <when fighting in [Foreign Land] tiles>"]
+        },
+        {
+		        "name": "Home Sweet Home", // only for Mehal Sefari and subsequent upgrades
+		        "uniques": ["[+30]% Strength decreasing with distance from the capital"]
+        },
+        {
+		        "name": "[Mohawk Warrior] ability",
+		        "uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"]
+        },
+        {
+		        "name": "[Jaguar] ability",
+		        "uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"]
+        },
+        {
+		        "name": "[Persian Immortal] ability",
+		        "uniques": ["[+10] HP when healing"]
+        },
+        {
+		        "name": "[Conquistador] ability",
+		        "uniques": ["Defense bonus when embarked"]
+        },
+        {
+		        "name": "[Janissary] ability",
+		"uniques": ["Heals [50] damage if it kills a unit", "[+25]% Strength <when attacking>"]
+        },
+        {
+		        "name": "[Sipahi] ability",
+		        "uniques": ["No movement cost to pillage"]
+        },
+        {
+		        "name": "[Cossack] ability",
+		        "uniques": ["[+50]% Strength <vs [Wounded] units>"]
+        },
+        {
+		        "name": "[Chu-Ko-Nu] ability",
+		        "uniques": ["[1] additional attacks per turn"]
+        },
+        {
+		        "name": "[Longbowman] ability",
+		        "uniques": ["[+1] Range"]
+        },
+        {
+		        "name": "[Samurai] ability",
+		        "uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles>"]
+        },
+        {
+		        "name": "[Berserker] ability",
+		        "uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"]
+        },
+        {
+	        	"name": "[Minuteman] ability",
+		        "uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles>"]
+        },
+        {
+		"name": "[Hussar] ability",
+		"uniques": ["[+50]% to Flank Attack bonuses"]
+        },
+        {
+	        	"name": "[Norwegian Ski Infantry] ability",
+	        	"uniques": ["[+25]% Strength <when fighting in [Snow] tiles>",
+	        		"[+25]% Strength <when fighting in [Tundra] tiles>",
+	        		"[+25]% Strength <when fighting in [Hill] tiles>",
+	        		"Double movement in [Snow]",
+	        		"Double movement in [Tundra]",
+	        		"Double movement in [Hill]"]
+        },
+        {
+	        	"name": "[Carolean] ability",
+	        	"uniques": ["Unit will heal every turn, even if it performs an action"]
+        },
+        {
+		        "name": "[Hakkapeliitta] ability",
+	        	"uniques": ["Transfer Movement to [Great General]", "[+15]% Strength when stacked with [Great General]"]
+        },
+        {
+	        	"name": "[B17] ability",
+	        	"uniques": ["Damage taken from interception reduced by [30]%", "[+33]% Strength <vs cities>"]
+        },
+        {
+	        	"name": "[Zero] ability",
+	        	"uniques": ["[+33]% Strength <vs [Fighter] units>"]
+        },
+        {
+	        	"name": "UAV",
+	        	"uniques": ["[-50]% maintenance costs", "Damage taken from interception reduced by [50]%", "[+20]% Strength when stacked with [Siege Carrier]"]
+        },
+        {
+		        "name": "Drill",
+		        "uniques": ["[+20]% Strength <in [Rough terrain] tiles>"]
+        },
+        {
+		        "name": "Iron Curtain Force Field",
+		        "uniques": ["[+50]% Strength <when defending>"]
+		}
 ]
