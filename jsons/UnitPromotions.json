@@ -1,15 +1,4 @@
 [
-    // row - x
-    // column - y
-
-    // Row 0-10 Heal instantly
-    // 10+ Units
-    //   11-20 Generic
-    //   21-30 Frontier Hunter
-    //   31-40 Medical
-
-    // Generic attributes
-    // Mazbe add "May capture killed [Barbarians] units" somewhere
     {
         "name": "Loyalty I",
         "uniques": [
