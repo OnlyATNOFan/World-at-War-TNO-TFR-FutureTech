@@ -1,0 +1,33 @@
+Cities.png
+size: 64, 72
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/City center-Information era2
+  rotate: false
+  xy: 32, 0
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Future era2
+  rotate: false
+  xy: 32, 0
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Age of Chaos
+  rotate: false
+  xy: 0, 0
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Satelital War era
+  rotate: false
+  xy: 0, 36
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,110 @@
+Leader.png
+size: 624, 840
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+LeaderIcons/Abaddon
+  rotate: false
+  xy: 0, 0
+  size: 156, 210
+  orig: 156, 210
+  offset: 0, 0
+  index: -1
+LeaderIcons/Joe Biden
+  rotate: false
+  xy: 156, 0
+  size: 156, 210
+  orig: 156, 210
+  offset: 0, 0
+  index: -1
+LeaderIcons/Martin Bormann
+  rotate: false
+  xy: 312, 0
+  size: 156, 210
+  orig: 156, 210
+  offset: 0, 0
+  index: -1
+LeaderIcons/Oskar Dirlewanger
+  rotate: false
+  xy: 468, 0
+  size: 156, 210
+  orig: 156, 210
+  offset: 0, 0
+  index: -1
+LeaderIcons/Pavel Batov
+  rotate: false
+  xy: 0, 210
+  size: 156, 210
+  orig: 156, 210
+  offset: 0, 0
+  index: -1
+LeaderIcons/Valery Sablin
+  rotate: false
+  xy: 0, 420
+  size: 156, 210
+  orig: 156, 210
+  offset: 0, 0
+  index: -1
+LeaderIcons/Valery Yemelyanov
+  rotate: false
+  xy: 0, 630
+  size: 156, 210
+  orig: 156, 210
+  offset: 0, 0
+  index: -1
+LeaderIcons/Ivan Stepanov
+  rotate: false
+  xy: 156, 210
+  size: 156, 210
+  orig: 156, 210
+  offset: 0, 0
+  index: -1
+LeaderIcons/Reinhard Heydrich
+  rotate: false
+  xy: 312, 210
+  size: 156, 210
+  orig: 156, 210
+  offset: 0, 0
+  index: -1
+LeaderIcons/Sergey Taboritsky
+  rotate: false
+  xy: 468, 210
+  size: 156, 210
+  orig: 156, 210
+  offset: 0, 0
+  index: -1
+LeaderIcons/Heinrich Himmler
+  rotate: false
+  xy: 156, 420
+  size: 156, 210
+  orig: 156, 210
+  offset: 0, 0
+  index: -1
+LeaderIcons/Hermann Göring
+  rotate: false
+  xy: 156, 630
+  size: 156, 210
+  orig: 156, 210
+  offset: 0, 0
+  index: -1
+LeaderIcons/Albert Speer
+  rotate: false
+  xy: 312, 420
+  size: 156, 210
+  orig: 156, 210
+  offset: 0, 0
+  index: -1
+LeaderIcons/Dmitry Yazov
+  rotate: false
+  xy: 312, 630
+  size: 156, 210
+  orig: 156, 210
+  offset: 0, 0
+  index: -1
+LeaderIcons/Andrei Zhdanov
+  rotate: false
+  xy: 468, 420
+  size: 156, 210
+  orig: 156, 210
+  offset: 0, 0
+  index: -1

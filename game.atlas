@@ -1,0 +1,965 @@
+game.png
+size: 700, 500
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Capital Fort
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Holy Fortress
+  rotate: false
+  xy: 0, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/KGB
+  rotate: false
+  xy: 0, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Komi Industries
+  rotate: false
+  xy: 0, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Listening Post
+  rotate: false
+  xy: 0, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Modern Burgundische-Schutzstaffel
+  rotate: false
+  xy: 200, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Burgundische-Schutzstaffel
+  rotate: false
+  xy: 200, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/The Mother of all Tanks
+  rotate: false
+  xy: 200, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Karbyshev's Wrath
+  rotate: false
+  xy: 200, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Black League Officer
+  rotate: false
+  xy: 200, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Trialims
+  rotate: false
+  xy: 200, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Modern Red Soldier (Sverdlovsk)
+  rotate: false
+  xy: 500, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Red Soldier (Sverdlovsk)
+  rotate: false
+  xy: 500, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Modern Spetsnaz (Sverdlovsk)
+  rotate: false
+  xy: 500, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Spetsnaz (Sverdlovsk)
+  rotate: false
+  xy: 500, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Bismarck
+  rotate: false
+  xy: 600, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Chernaya Gvardiya
+  rotate: false
+  xy: 300, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Dirlewanger Brigade
+  rotate: false
+  xy: 300, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/KGB Special Forces
+  rotate: false
+  xy: 300, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Modern Chernaya Gvardiya
+  rotate: false
+  xy: 300, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Modern KGB Special Forces
+  rotate: false
+  xy: 400, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Modern Wehrmacht (Göring)
+  rotate: false
+  xy: 500, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Modern Wehrmacht (Bormann)
+  rotate: false
+  xy: 500, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Modern Wehrmacht (Speer)
+  rotate: false
+  xy: 500, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Supersoldaten Totenkopf
+  rotate: false
+  xy: 600, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Supersoldaten (Göring)
+  rotate: false
+  xy: 400, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Supersoldaten (Bormann)
+  rotate: false
+  xy: 400, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Supersoldaten (Speer)
+  rotate: false
+  xy: 400, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Supersoldaten (Heydrich)
+  rotate: false
+  xy: 400, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Wehrmacht (Göring)
+  rotate: false
+  xy: 400, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Wehrmacht (Bormann)
+  rotate: false
+  xy: 400, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Wehrmacht (Speer)
+  rotate: false
+  xy: 400, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Karbyshev's Wrath
+  rotate: false
+  xy: 400, 400
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Supersoldaten Totenkopf
+  rotate: false
+  xy: 400, 431
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Supersoldaten (Göring)
+  rotate: false
+  xy: 400, 462
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Supersoldaten (Bormann)
+  rotate: false
+  xy: 400, 462
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Supersoldaten (Speer)
+  rotate: false
+  xy: 400, 462
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Supersoldaten (Heydrich)
+  rotate: false
+  xy: 400, 462
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chernaya Gvardiya
+  rotate: false
+  xy: 432, 400
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Black League Officer
+  rotate: false
+  xy: 432, 428
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Blood Knights
+  rotate: false
+  xy: 432, 456
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Bormann Loyalist
+  rotate: false
+  xy: 464, 400
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Burgundische-Schutzstaffel
+  rotate: false
+  xy: 464, 428
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chernyy Soldat
+  rotate: false
+  xy: 464, 456
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Cultist
+  rotate: false
+  xy: 496, 400
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+				{
+					"filename": "TileSets/FantasyHex/Units/Cultist.png",
+					"region": {
+						"x": 496,
+						"y": 400,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Deutsche-Schutzstaffel (Guard).png",
+					"region": {
+						"x": 496,
+						"y": 428,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Deutsche-Schutzstaffel (Infantry).png",
+					"region": {
+						"x": 496,
+						"y": 456,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Giperboreya Strazha.png",
+					"region": {
+						"x": 528,
+						"y": 200,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Great War Blood Knights.png",
+					"region": {
+						"x": 560,
+						"y": 200,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Great War Mercenary.png",
+					"region": {
+						"x": 592,
+						"y": 200,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Göring Schutzstaffel.png",
+					"region": {
+						"x": 624,
+						"y": 200,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Jeager.png",
+					"region": {
+						"x": 656,
+						"y": 200,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/KGB Special Forces.png",
+					"region": {
+						"x": 528,
+						"y": 228,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Landkreuzer P.1000 Ratte (Bormann).png",
+					"region": {
+						"x": 560,
+						"y": 228,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Landkreuzer P.1000 Ratte (Göring).png",
+					"region": {
+						"x": 592,
+						"y": 228,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Landkreuzer P.1000 Ratte (Heydrich).png",
+					"region": {
+						"x": 624,
+						"y": 228,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Landkreuzer P.1000 Ratte (Speer).png",
+					"region": {
+						"x": 656,
+						"y": 228,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Mercenary.png",
+					"region": {
+						"x": 500,
+						"y": 256,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Modern Chernaya Gvardiya.png",
+					"region": {
+						"x": 500,
+						"y": 284,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Modern Blood Knights.png",
+					"region": {
+						"x": 500,
+						"y": 312,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Modern Burgundische-Schutzstaffel.png",
+					"region": {
+						"x": 500,
+						"y": 340,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Modern Deutsche-Schutzstaffel.png",
+					"region": {
+						"x": 500,
+						"y": 368,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Modern Giperboreya Strazha.png",
+					"region": {
+						"x": 528,
+						"y": 396,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Modern KGB Special Forces.png",
+					"region": {
+						"x": 528,
+						"y": 424,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Modern Mercenary.png",
+					"region": {
+						"x": 528,
+						"y": 452,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Modern OFN Soldier.png",
+					"region": {
+						"x": 560,
+						"y": 256,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Modern Waffen-Schutzstaffel.png",
+					"region": {
+						"x": 592,
+						"y": 256,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/OFN Soldier.png",
+					"region": {
+						"x": 624,
+						"y": 256,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Panzer (Bormann).png",
+					"region": {
+						"x": 656,
+						"y": 256,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Panzer (Göring).png",
+					"region": {
+						"x": 532,
+						"y": 284,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Panzer (Heydrich).png",
+					"region": {
+						"x": 532,
+						"y": 312,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Panzer (Speer).png",
+					"region": {
+						"x": 532,
+						"y": 340,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Red Soldier (Buryatia).png",
+					"region": {
+						"x": 532,
+						"y": 368,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Red Soldier (Sverdlovsk).png",
+					"region": {
+						"x": 560,
+						"y": 396,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Speer Loyalist.png",
+					"region": {
+						"x": 560,
+						"y": 424,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Spetsnaz (Buryatia).png",
+					"region": {
+						"x": 560,
+						"y": 452,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Spetsnaz (Sverdlovsk).png",
+					"region": {
+						"x": 592,
+						"y": 284,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Student Protester.png",
+					"region": {
+						"x": 624,
+						"y": 284,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/T-72.png",
+					"region": {
+						"x": 656,
+						"y": 284,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/The Mother of all Tanks.png",
+					"region": {
+						"x": 564,
+						"y": 312,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Waffen-Schutzstaffel.png",
+					"region": {
+						"x": 564,
+						"y": 340,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Wehrmacht (Bormann).png",
+					"region": {
+						"x": 564,
+						"y": 368,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Wehrmacht (Göring).png",
+					"region": {
+						"x": 596,
+						"y": 312,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Wehrmacht (Speer).png",
+					"region": {
+						"x": 628,
+						"y": 312,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TileSets/FantasyHex/Units/Zlodey.png",
+					"region": {
+						"x": 660,
+						"y": 312,
+						"w": 32,
+						"h": 28
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UnitIcons/Chernyy Soldat.png",
+					"region": {
+						"x": 200,
+						"y": 300,
+						"w": 100,
+						"h": 100
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "UnitIcons/Dirlewanger Panzergrenadier.png",
+					"region": {
+						"x": 300,
+						"y": 200,
+						"w": 100,
+						"h": 100
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				}
