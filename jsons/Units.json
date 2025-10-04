@@ -3048,13 +3048,13 @@
 		"cost": 75,
 		"requiredResource": "Horses",
 		"uniques": ["May upgrade to [Cavalry] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-25]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-1] Movement <in [Foreign Land] tiles>"],
-		"upgradesTo":"Machine Gun Car",
+		"upgradesTo":"Improvised Gun Car",
 		"requiredTech": "Rifling",
 		"obsoleteTech":"Railroads",
 		"attackSound": "shot"
 	},
 	{
-		"name": "Machine Gun Car",
+		"name": "Improvised Gun Car",
 		"unitType": "Militia",
 		"movement": 5,
 		"strength": 37,
