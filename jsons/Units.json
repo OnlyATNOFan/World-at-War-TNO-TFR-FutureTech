@@ -3099,8 +3099,21 @@
 		"strength": 94,
 		"cost": 170,
 		"requiredResource": "Oil",
-		"uniques": ["May upgrade to [Mechanized Infantry] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-25]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-1] Movement <in [Foreign Land] tiles>"],
+		"uniques": ["May upgrade to [Satelital War Mechanized Infantry] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-25]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-1] Movement <in [Foreign Land] tiles>"],
+		"upgradesTo":"Mechanized Paramilitary",
 		"requiredTech": "New Gen Comunications",
+		"obsoleteTech":"Ecology II",
+		"attackSound": "Machine_Gun"
+	},
+	{
+		"name": "Mechanized Paramilitary",
+		"unitType": "Militia",
+		"movement": 5,
+		"strength": 111,
+		"cost": 190,
+		"requiredResource": "Oil",
+		"uniques": ["May upgrade to [Ghost Assault Group Early] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-25]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-1] Movement <in [Foreign Land] tiles>"],
+		"requiredTech": "Ecology II",
 		"attackSound": "Machine_Gun"
 	},
 
