@@ -2985,13 +2985,13 @@
 		"cost": 525,
 		"requiredTech": "New Gen Engineering",
 		"requiredResource": "Oil",
-		"upgradesTo": "Chaos Era Mechanized Infantry",
+		"upgradesTo": "Ghost Assault Group Early",
 		"obsoleteTech": "New Gen equipment",
 		"uniques": ["Can move after attacking"],
 		"attackSound": "shots"
 	},
 	{
-		"name": "Chaos Era Mechanized Infantry",
+		"name": "Ghost Assault Group Early",
 		"unitType": "Gunpowder",
 		"movement": 5,
 		"strength": 130,
