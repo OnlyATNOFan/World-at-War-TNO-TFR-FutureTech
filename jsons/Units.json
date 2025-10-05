@@ -1200,6 +1200,18 @@
 		"strength": 85,
 		"cost": 500,
 		"requiredTech": "New Gen Ballistics",
+		"upgradesTo": "Anti-Tank Gauss Rifle",
+		"obsoleteTech": "Artificial Superconductor",
+		"uniques": ["Infantry","Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>"],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Anti-Tank Gauss Rifle",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 100,
+		"cost": 600,
+		"requiredTech": "Artificial Superconductor",
 		"uniques": ["Infantry","Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>"],
 		"attackSound": "missile"
 	},
