@@ -598,8 +598,8 @@
                 "name": "Fanatics Recruitment",
                 "uniques": [
                     "[+25]% Strength for cities <when attacking>",
-                    "May buy [{Military} {Land}] units with [Faith] for [5] times their normal Production cost <before the [Future era]>",
-                    "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>",
+                    "May buy [{Militia} {Land}] units with [Faith] for [5] times their normal Production cost <before the [Future era]>",
+                    "May buy [{Militia} {Land}] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>",
                     "[+25]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
                     "[+30]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
                     "Militaristic City-States grant units [10] times as fast when you are at war with a common nation",
