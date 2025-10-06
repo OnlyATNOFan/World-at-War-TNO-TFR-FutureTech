@@ -833,7 +833,7 @@
                                 "quote": "All our knowledge - past, present and future, is nothing compared to what we will never know"
                         },
                         {
-                                "name": "New Gen Aerospace Engineering",
+                                "name": "New Gen Aeronautics Engineering",
                                 "row": 7,
                                 "prerequisites": ["Quantum Computing Technology (Level 0)","Pharmaceuticals III"],
                                 "quote": "All our knowledge - past, present and future, is nothing compared to what we will never know—Konstantin Tsiolkovsky"
@@ -850,7 +850,7 @@
                         {
                                 "name": "Artificial Inteligence Advance",
                                 "row": 4,
-                                "prerequisites": ["New Gen Ballistics","New Gen Engineering","New Gen Aerospace Engineering"],
+                                "prerequisites": ["New Gen Ballistics","New Gen Engineering","New Gen Aeronautics Engineering"],
                                 "quote": "Al will not replace humans, but those who use Al will replace those who don't. - Ginni Rometty"
                         }
                 ]
@@ -877,13 +877,13 @@
                         {
                                 "name": "VR",
                                 "row": 6,
-                                "prerequisites": ["Artificial Inteligence Advance","New Gen Aerospace Engineering","New Gen Engineering"],
+                                "prerequisites": ["Artificial Inteligence Advance","New Gen Aeronautics Engineering","New Gen Engineering"],
                                 "quote": ""
                         },
                         {
                                 "name": "Synthetic Food",
                                 "row": 7,
-                                "prerequisites": ["Artificial Inteligence Advance","New Gen Aerospace Engineering","New Gen Engineering"],
+                                "prerequisites": ["Artificial Inteligence Advance","New Gen Aeronautics Engineering","New Gen Engineering"],
                                 "quote": ""
                         }
                 ]
@@ -916,7 +916,7 @@
                         {
                                 "name": "New Gen equipment",
                                 "row": 8,
-                                "prerequisites": ["New Gen Aerospace Engineering","Synthetic Food","VR"],
+                                "prerequisites": ["New Gen Aeronautics Engineering","Synthetic Food","VR"],
                                 "quote": ""
                         }
                 ]
