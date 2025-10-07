@@ -1571,6 +1571,7 @@
 		"uniques": ["Never appears as a Barbarian unit", "[-10]% Strength <vs [Infantry] units>"],
 		"attackSound": "artillery"
 	},
+	{
 		"name": "Gauss Howitzer",
 		"unitType": "Ranged Gunpowder",
 		"movement": 2,
