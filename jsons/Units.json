@@ -1554,18 +1554,31 @@
 		"cost": 425,
 		"requiredTech": "Robotics",
 		"obsoleteTech": "New Gen Ballistics",
-		"upgradesTo": "Satelital War Field Artillery",
+		"upgradesTo": "Precision Field Artillery",
 		"uniques": ["Never appears as a Barbarian unit", "[-10]% Strength <vs [Infantry] units>"],
 		"attackSound": "artillery"
 	},
 	{
-		"name": "Satelital War Field Artillery",
+	{
+		"name": "Precision Field Artillery",
 		"unitType": "Ranged Gunpowder",
 		"movement": 2,
 		"strength": 70,
 		"rangedStrength": 100,
 		"cost": 475,
 		"requiredTech": "New Gen Ballistics",
+		"obsoleteTech": "Artificial Superconductor",
+		"upgradesTo": "Gauss Howitzer",
+		"uniques": ["Never appears as a Barbarian unit", "[-10]% Strength <vs [Infantry] units>"],
+		"attackSound": "artillery"
+	},
+		"name": "Gauss Howitzer",
+		"unitType": "Ranged Gunpowder",
+		"movement": 2,
+		"strength": 85,
+		"rangedStrength": 120,
+		"cost": 550,
+		"requiredTech": "Artificial Superconductor",
 		"uniques": ["Never appears as a Barbarian unit", "[-10]% Strength <vs [Infantry] units>"],
 		"attackSound": "artillery"
 	},
