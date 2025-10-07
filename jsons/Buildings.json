@@ -1,4 +1,21 @@
 [
+    
+    {
+        "name": "Gym",
+
+        "maintenance": 1,
+        "happiness": 2,
+        "hurryCostModifier": 15,
+
+        "requiredTech": "Bronze Working",
+
+        "uniques": [
+            "New [Infantry] units start with [+20] XP [in this city]",
+            "Destroyed when the city is captured"
+        ],
+
+        "cost": 75
+    },
     {
         "name": "Restaurant",
 
