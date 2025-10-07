@@ -1559,7 +1559,6 @@
 		"attackSound": "artillery"
 	},
 	{
-	{
 		"name": "Precision Field Artillery",
 		"unitType": "Ranged Gunpowder",
 		"movement": 2,
