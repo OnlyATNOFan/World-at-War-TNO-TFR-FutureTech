@@ -276,6 +276,29 @@
 	
 	///TFR
 	{
+		"name": "American Constitutional Government",
+		"leaderName": "Donald Trump",
+		"adjective": ["Constitutionalist", "American", "Patriot"],
+		"startBias": ["Plains", "Grassland"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Christianity",
+		"startIntroPart1": "After the collapse of federal authority in 2020, President Trump and his loyalists fled to the NORAD complex in Colorado. From there, they established the American Constitutional Government — a movement dedicated to restoring the 'true' republic, defending liberty, and saving what remains of the old United States.",
+		"declaringWar": "You betrayed the Constitution. Now you will face the wrath of true Americans.",
+		"attacked": "You think you can silence freedom? You’re wrong — America fights back!",
+		"defeated": "Perhaps... America wasn’t ready to be great again.",
+		"denounced": "Your corruption and globalism are a stain on liberty.",
+		"introduction": "I am Donald Trump, the legitimate President of the United States. We are the Constitutional Government of America — loyal to the people, loyal to freedom, and loyal to victory.",
+		"neutralHello": "America will rise again, believe me.",
+		"hateHello": "Traitors to the republic... you’ll regret this.",
+		"tradeRequest": "Let’s make a deal — good for America, good for you.",
+		"outerColor": [165, 0, 0],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "America First Doctrine",
+		"uniques": [ "+15% Production when building [Military Units]", "+10% Combat Strength when fighting in own territory", "[-10]% Science output", "+1 Happiness per city with a [Barracks]"],
+		"cities": [ "Denver", "Kansas City", "Oklahoma City", "St. Louis", "Springfield", "Lincoln", "Des Moines", "Sioux Falls", "Fargo", "Helena", "Cheyenne", "Billings", "Minneapolis", "Milwaukee", "Madison", "Topeka", "Rapid City", "Bismarck", "Grand Forks", "Cedar Rapids"],
+		"spyNames": [ "Eagle One", "Liberty Shadow", "Patriot Dawn", "Freedom Whisper", "Constitution’s Hand", "Justice Fox", "Deep Sentinel", "True American"]
+	},
+	{
 		"name": "Eternal Republic",
 		"leaderName": "Joe Biden",
 		"adjective": ["American"],
