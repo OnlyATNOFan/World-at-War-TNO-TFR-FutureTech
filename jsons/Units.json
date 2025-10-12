@@ -764,6 +764,20 @@
 		"attackSound": "shots"
 	},
 	{
+		"name": "Dawn Raider",
+		"unitType": "Gunpowder",
+		"replaces": "Satelital War Infantry",
+		"uniqueTo": "Atomwaffen Division",
+		"movement": 2,
+		"strength": 95,
+		"cost": 460,
+		"requiredTech": "Future Tactics",
+		"upgradesTo": "Chaos Era Infantry",
+		"obsoleteTech": "New Gen equipment",
+		"uniques": ["Infantry","[+15]% Strength <vs cities>","[+25]% Strength <when below [50] HP>","No movement cost to pillage","[-10]% Strength <when defending>"]
+		"attackSound": "shots"
+	},
+	{
 		"name": "Chaos Era Infantry",
 		"unitType": "Gunpowder",
 		"movement": 2,
