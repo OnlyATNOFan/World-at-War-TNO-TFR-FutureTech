@@ -211,6 +211,21 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Ironfang",
+		"unitType": "Sword",
+		"uniqueTo": "Barbarians",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Gunpowder",
+		"uniques": ["Infantry"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Longswordsman",
 		"unitType": "Sword",
 		"movement": 2,
@@ -259,6 +274,20 @@
 		//Danish unique unit. Can attack from the sea without any penalty, and moves faster.
 	},
 	{
+		"name": "Bandits",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"uniques": ["Infantry"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Musketman",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -296,6 +325,20 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"promotions": ["[Janissary] ability"],
+		"uniques": ["Infantry"],
+		"attackSound": "Volley_Fire"
+	},
+	{
+		"name": "Buccaneer",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 26,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
 		"uniques": ["Infantry"],
 		"attackSound": "Volley_Fire"
 	},
@@ -372,6 +415,20 @@
 		"attackSound": "Volley_Fire"
 	},
 	{
+		"name": "Rebel",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"uniques": ["Infantry"],
+		"attackSound": "Volley_Fire"
+	},
+	{
 		"name": "Great War Infantry",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -441,6 +498,20 @@
 		"uniques": ["Infantry","Never appears as a Barbarian unit","No movement cost to pillage"],
 		"attackSound": "shot",
 		"promotions": ["Morale","Shovel Assault","Fueled by Hate"]
+	},
+	{
+		"name": "Insurgent",
+		"unitType": "Gunpowder",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Pharmaceuticals",
+		"uniques": ["Infantry"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Infantry",
@@ -605,6 +676,20 @@
 		"promotions": ["Liberty","Morale"]
 	},
 	{
+		"name": "Terrorist",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Pharmaceuticals",
+		"upgradesTo": "Modern Infantry",
+		"obsoleteTech": "Telecommunications",
+		"uniques": ["Infantry"],
+		"attackSound": "shots"
+	},
+	{
 		"name": "Modern Infantry",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -752,6 +837,20 @@
 		"promotions": ["Liberty","Morale"]
 	},
 	{
+		"name": "Criminal Infantry",
+		"unitType": "Gunpowder",
+		"replaces": "Modern Infantry",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 80,
+		"cost": 425,
+		"requiredTech": "Telecommunications",
+		"upgradesTo": "Satelital War Infantry",
+		"obsoleteTech": "Future Tactics",
+		"uniques": ["Infantry"],
+		"attackSound": "shots"
+	},
+	{
 		"name": "Satelital War Infantry",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -778,6 +877,20 @@
 		"attackSound": "shots"
 	},
 	{
+		"name": "Criminal Paramilitary",
+		"unitType": "Gunpowder",
+		"replaces": "Satelital War Infantry",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 90,
+		"cost": 475,
+		"requiredTech": "Future Tactics",
+		"upgradesTo": "Chaos Era Infantry",
+		"obsoleteTech": "New Gen equipment",
+		"uniques": ["Infantry"],
+		"attackSound": "shots"
+	},
+	{
 		"name": "Chaos Era Infantry",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -785,6 +898,18 @@
 		"cost": 525,
 		"requiredTech": "New Gen equipment",
 		"uniques": ["Infantry","Never appears as a Barbarian unit"],
+		"attackSound": "shots"
+	},
+	{
+		"name": "Ash Cultist",
+		"unitType": "Gunpowder",
+		"replaces": "Chaos Era Infantry",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 100,
+		"cost": 525,
+		"requiredTech": "New Gen equipment",
+		"uniques": ["Infantry"],
 		"attackSound": "shots"
 	},
 	
