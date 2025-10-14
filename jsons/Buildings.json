@@ -1,5 +1,194 @@
 [
+    {
+        "name": "Potter's Hut",
+
+        "happiness": 1,
+        "culture": 1,
+        "production": 1,
+
+        "requiredTech": "Pottery",
+
+        "uniques": [
+            "[+10]% [Food] [in this city]"
+        ],
+
+        "cost": 45
+    },
+    {
+        "name": "Communal Cabin",
+        
+        
+        "Production": 1,
+        "Culture": 1,
     
+        "requiredTechs": "Agriculture",
+        
+        "uniques": [
+            "Free [Worker] appears"
+        ],
+        
+        "cost": 35
+    },
+    {
+        "name": "Community Meeting Room",
+        
+        "maintenance": 1,
+        "happiness": 1,
+        "Production": 1,
+        "Culture": 2,
+        
+        "requiredTechs": "Construction",
+        "requiredBuilding": "Communal Cabin",
+        
+        "uniques": [
+            "[+1 Happiness] per [10] population [in this cities]"
+        ]
+        "cost": 105
+    },
+    {
+        "name": "City Hall",
+        
+        "maintenance": 2,
+        "Production": 1,
+        "Culture": 3,
+        "Gold": 1,
+        
+        "requiredTechs": "Civil Service",
+        "requiredBuilding": "Community Meeting Room",
+        
+        "cost": 125
+    },
+    {
+        "name": "Council House",
+        
+        "maintenance": 3,
+        "Production": 1,
+        "Culture": 4,
+        "Gold": 2,
+        
+        "requiredTechs": "Printing",
+        "requiredBuilding": "City Hall",
+        
+        "uniques": [
+            "[+15]% [Gold] [in this city]"
+        ],
+        
+        "cost": 200
+    },
+    {
+        "name": "Municipal Palace",
+        
+        "maintenance": 4,
+        "Production": 2,
+        "Culture": 4,
+        "Gold": 3,
+        
+        "requiredTechs": "Industrialization",
+        "requiredBuilding": "Council House",
+        
+        "uniques": [
+            "[+20]% [Gold] [in this city]",
+            "[+10]% Production when constructing [Buildings] buildings [in this city]"
+        ],
+        
+        "cost": 300
+    },
+    {
+        "name": "Modern Civic Center",
+        
+        "maintenance": 5,
+        "Production": 3,
+        "Culture": 6,
+        "Gold": 4,
+        
+        "requiredTechs": "Political Power",
+        "requiredBuilding": "Municipal Palace",
+        
+        "uniques": [
+            "[+20]% [Gold] [in this city]",
+            "[+10]% Production when constructing [Buildings] buildings [in this city]",
+            "[+30]% [Culture] [in this city]"
+        ],
+        
+        "cost": 700
+    },
+    {
+        "name": "Administrative Complex",
+        
+        "maintenance": 6,
+        "Production": 4,
+        "Culture": 7,
+        "Gold": 5,
+        
+        "requiredTechs": "Computers",
+        "requiredBuilding": "Modern Civic Center",
+        
+        "uniques": [
+            "[+30]% [Gold] [in this city]",
+            "[+20]% Production when constructing [Buildings] buildings [in this city]",
+            "[+15]% [Culture] [in this city]"
+        ],
+        
+        "cost": 800
+    },
+    {
+        "name": "Digital Management Center",
+        
+        "maintenance": 7,
+        "Production": 5,
+        "Culture": 8,
+        "Gold": 6,
+        
+        "requiredTechs": "Globalization",
+        "requiredBuilding": "Administrative Complex",
+        
+        "uniques": [
+            "[+35]% [Gold] [in this city]",
+            "[+25]% Production when constructing [Buildings] buildings [in this city]",
+            "[+20]% [Culture] [in this city]"
+        ],
+        
+        "cost": 900
+    },
+    {
+        "name": "Autonomous Governance Module",
+        
+        "maintenance": 8,
+        "Production": 6,
+        "Culture": 10,
+        "Gold": 7,
+        
+        "requiredTechs": "Artificial Intelligence Advance",
+        "requiredBuilding": "Digital Management Center",
+        
+        "uniques": [
+            "[+40]% [Gold] [in this city]",
+            "[+30]% Production when constructing [Buildings] buildings [in this city]",
+            "[+25]% [Culture] [in this city]"
+        ],
+        
+        "cost": 1100
+    },
+    {
+        "name": "Biocivic Control Core",
+        
+        "maintenance": 9,
+        "Production": 6,
+        "Culture": 9,
+        "Gold": 8,
+        
+        "requiredTechs": "Bioengineering",
+        "requiredBuilding": "Autonomous Governance Module",
+        
+        "uniques": [
+            "[+50]% [Gold] [in this city]",
+            "[+30]% Production when constructing [Buildings] buildings [in this city]",
+            "[+25]% [Culture] [in this city]",
+            "[+10]% Great Person generation [in this city]"
+        ],
+        
+        "cost": 600
+    },
     {
         "name": "Gym",
 
