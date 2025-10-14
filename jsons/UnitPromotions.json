@@ -288,7 +288,7 @@
                 "Heals [+15] damage if it kills a Unit",
                 "May capture killed [Barbarians] units",
                 "[+50]% XP gained from combat"],
-        "unitTypes": ["Naval Melee"]
+        "unitTypes": ["Naval Melee","Melee Naval"]
     },
         {
                 "name": "Drone Support",
