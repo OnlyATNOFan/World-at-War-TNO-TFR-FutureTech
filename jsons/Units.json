@@ -1144,8 +1144,8 @@
 		"strength": 10,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Heavy Infantry",
 		"uniques": ["Infantry","[+30]% Strength <vs [Mounted] units>", "[+30]% Strength <vs [Mounted Ranged] units>"],
 		"attackSound": "metalhit"
 	},
@@ -1191,6 +1191,20 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Brute Spearwarrior",
+		"unitType": "Sword",
+		"replaces": "Heavy Infantry",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 12,
+		"cost": 70,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["Infantry","[+35]% Strength <vs [Mounted] units>", "[+35]% Strength <vs [Mounted Ranged] units>"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Pikeman",
 		"unitType": "Sword",
 		"movement": 2,
@@ -1218,6 +1232,20 @@
 		//"Requires [Mercenary Army]" in BNW
 	},
 	{
+		"name": "Pike Savage",
+		"unitType": "Sword",
+		"replaces": "Pikeman",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["Infantry","[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Mounted Ranged] units>"],
+		"upgradesTo": "Pike and Shot",
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit" 
+	},
+	{
 		"name": "Pike and Shot",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -1242,6 +1270,20 @@
 		"obsoleteTech": "Rifling",
 		"uniques": ["Infantry","[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Mounted Ranged] units>"],
 		"attackSound": "Volley_Fire"
+	},
+	{
+		"name": "Skirmisher Pike",
+		"unitType": "Gunpowder",
+		"replaces": "Pike and Shot",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 20,
+		"cost": 160,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Line Infantry",
+		"obsoleteTech": "Rifling",
+		"uniques": ["Infantry","[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Mounted Ranged] units>"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Line Infantry",
@@ -1271,6 +1313,20 @@
 		"attackSound": "Volley_Fire"
 	},
 	{
+		"name": "Line Hunter",
+		"unitType": "Gunpowder",
+		"replaces": "Line Infantry",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Railroads",
+		"upgradesTo": "Anti-Tank Rifle",
+		"uniques": ["Infantry","[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Mounted Ranged] units>"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Anti-Tank Rifle",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -1280,6 +1336,21 @@
 		"obsoleteTech": "Ballistics",
 		"upgradesTo": "Anti-Tank Gun",
 		"uniques": ["Infantry","Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>"],
+		"attackSound": "AntiTankShot"
+	},
+	{
+		"name": "Trench Piercer",
+		"unitType": "Gunpowder",
+		"replaces": "Anti-Tank Rifle",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 37,
+		"cost": 255,
+		"requiredTech": "Railroads",
+		"obsoleteTech": "Ballistics",
+		"upgradesTo": "Anti-Tank Gun",
+		"uniques": ["Infantry",
+		"[+50]% Strength <vs [Armored] units>"],
 		"attackSound": "AntiTankShot"
 	},
 	{
@@ -1295,6 +1366,20 @@
 		"attackSound": "tankshot"
 	},
 	{
+		"name": "Guerilla Gunner",
+		"unitType": "Gunpowder",
+		"replaces": "Anti-Tank Gun",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 40,
+		"cost": 300,
+		"requiredTech": "Ballistics",
+		"upgradesTo": "Bazooka",
+		"obsoleteTech": "Rocketry",
+		"uniques": ["Infantry","[+50]% Strength <vs [Armored] units>"],
+		"attackSound": "tankshot"
+	},
+	{
 		"name": "Bazooka",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -1304,6 +1389,20 @@
 		"upgradesTo": "Modern AT Missile",
 		"obsoleteTech": "Lasers",
 		"uniques": ["Infantry","Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>"],
+		"attackSound": "missile"
+	},
+	{
+		"name": "AT Terrorist",
+		"unitType": "Gunpowder",
+		"replaces": "Bazooka",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 60,
+		"cost": 375,
+		"requiredTech": "Rocketry",
+		"upgradesTo": "Modern AT Missile",
+		"obsoleteTech": "Lasers",
+		"uniques": ["Infantry","[+50]% Strength <vs [Armored] units>"],
 		"attackSound": "missile"
 	},
 	{
@@ -1333,6 +1432,20 @@
 		"attackSound": "missile"
 	},
 	{
+		"name": "Missile Skirmisher",
+		"unitType": "Gunpowder",
+		"replaces": "Modern AT Missile",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 70,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"upgradesTo": "Satelital War AT Missile",
+		"obsoleteTech": "New Gen Ballistics",
+		"uniques": ["Infantry", "[+50]% Strength <vs [Armored] units>"],
+		"attackSound": "missile"
+	},
+	{
 		"name": "Satelital War AT Missile",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -1345,6 +1458,20 @@
 		"attackSound": "missile"
 	},
 	{
+		"name": "Urban Hunter",
+		"unitType": "Gunpowder",
+		"replaces": "Satelital War AT Missile",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 85,
+		"cost": 500,
+		"requiredTech": "New Gen Ballistics",
+		"upgradesTo": "Anti-Tank Gauss Rifle",
+		"obsoleteTech": "Artificial Superconductor",
+		"uniques": ["Infantry", "[+50]% Strength <vs [Armored] units>"],
+		"attackSound": "missile"
+	},
+	{
 		"name": "Anti-Tank Gauss Rifle",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -1353,6 +1480,18 @@
 		"requiredTech": "Artificial Superconductor",
 		"uniques": ["Infantry","Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>"],
 		"attackSound": "missile"
+	},
+	{
+		"name": "Anti-Tank Revenant",
+		"unitType": "Gunpowder",
+		"replaces": "Anti-Tank Gauss Rifle",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 100,
+		"cost": 600,
+		"requiredTech": "Artificial Superconductor",
+		"uniques": ["Infantry", "[+50]% Strength <vs [Armored] units>"],
+		"attackSound": "AntiTankShot"
 	},
 
 	//rangedA
@@ -1384,8 +1523,37 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Mudshot",
+		"unitType": "Archery",
+		"replaces": "Stoneslinger",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 6,
+		"range": 1,
+		"cost": 40,
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Javelineer",
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Javelineer",
 		"unitType": "Archery",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 9,
+		"range": 1,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Skirmisher",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Spearflinger",
+		"unitType": "Archery",
+		"replaces": "Javelineer",
+		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 8,
 		"rangedStrength": 9,
@@ -1410,6 +1578,21 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Outlaw Marksman",
+		"unitType": "Archery",
+		"replaces": "Skirmisher",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 16,
+		"rangedStrength": 16,
+		"range": 1,
+		"cost": 120,
+		"requiredTech": "Civil Service",
+		"upgradesTo": "Arquebusier",
+		"obsoleteTech": "Chemistry",
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Arquebusier",
 		"unitType": "Ranged Gunpowder",
 		"movement": 2,
@@ -1423,8 +1606,38 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Buccaneer Gunner",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Arquebusier",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 19,
+		"rangedStrength": 19,
+		"range": 1,
+		"cost": 185,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Gatling Gun",
 		"unitType": "Ranged Gunpowder",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "Industrialization",
+		"upgradesTo": "Machine Gun",
+		"obsoleteTech": "Ballistics",
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Gatling Outlaw",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Gatling Gun",
+		"uniqueTo": "Barbarians",
 		"range": 1,
 		"movement": 2,
 		"strength": 30,
@@ -1450,8 +1663,38 @@
 		// Upgrades to Bazooka in BNW
 	},
 	{
+		"name": "Rebel Machinegunner",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Machine Gun",
+		"uniqueTo": "Barbarians",
+		"range": 1,
+		"movement": 2,
+		"strength": 60,
+		"rangedStrength": 60,
+		"cost": 350,
+		"requiredTech": "Ballistics",
+		"obsoleteTech": "Rocketry",
+		"upgradesTo": "Heavy Weapons",
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Heavy Weapons",
 		"unitType": "Ranged Gunpowder",
+		"range": 1,
+		"movement": 2,
+		"strength": 70,
+		"rangedStrength": 70,
+		"cost": 375,
+		"requiredTech": "Rocketry",
+		"obsoleteTech": "Lasers",
+		"upgradesTo": "Modern Heavy Weapons",
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Blackflag Gunner",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Heavy Weapons",
+		"uniqueTo": "Barbarians",
 		"range": 1,
 		"movement": 2,
 		"strength": 70,
@@ -1476,8 +1719,38 @@
 		"attackSound": "machinegun"
 	},
 	{
+		"name": "Heavy Sicario",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Modern Heavy Weapons",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 80,
+		"rangedStrength": 90,
+		"range": 1,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"obsoleteTech": "New Gen Ballistics",
+		"upgradesTo": "Satelital War Heavy Weapons",
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Satelital War Heavy Weapons",
 		"unitType": "Ranged Gunpowder",
+		"movement": 2,
+		"strength": 90,
+		"rangedStrength": 110,
+		"range": 1,
+		"cost": 475,
+		"requiredTech": "New Gen Ballistics",
+		"obsoleteTech": "Autonomous Drones",
+		"upgradesTo": "Cognitive Land Assault Weapon",
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Warlord Gunner",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Satelital War Heavy Weapons",
+		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 90,
 		"rangedStrength": 110,
@@ -1507,6 +1780,19 @@
 		"movement": 2,
 		"strength": 110,
 		"rangedStrength": 130,
+		"range": 1,
+		"cost": 525,
+		"requiredTech": "Autonomous Drones",
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "C.L.A.W. Berserker",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Cognitive Land Assault Weapon",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 115,
+		"rangedStrength": 135,
 		"range": 1,
 		"cost": 525,
 		"requiredTech": "Autonomous Drones",
@@ -1558,24 +1844,38 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Spear Thrower",
+		"name": "Savage Bowman",
 		"unitType": "Archery",
-		"uniqueTo": "Barbarians",
 		"replaces": "Archer",
+		"uniqueTo": "Barbarians",
 		"movement": 2,
-		"strength": 4,
-		"rangedStrength": 6,
-		"range": 2,
+		"strength": 5,
+		"rangedStrength": 7,
 		"cost": 40,
 		"requiredTech": "Archery",
-		"obsoleteTech": "Civil Service",
-		"uniques": ["[-20]% Strength <vs [Infantry] units>"]
-		"upgradesTo": "Skirmisher",
+		"obsoleteTech": "Construction",
+		"uniques": ["[-10]% Strength <vs [Infantry] units>"]
+		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
 	},
 	{
 		"name": "Composite Bowman",
 		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"uniques": ["[-10]% Strength <vs [Infantry] units>"]
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Savage Longbow",
+		"unitType": "Archery",
+		"replaces": "Composite Bowman",
+		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 11,
@@ -1633,6 +1933,21 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Crossbow Scoundrel",
+		"unitType": "Archery",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Cannon",
+		"obsoleteTech": "Chemistry",
+		"uniques": ["[-10]% Strength <vs [Infantry] units>"]
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Cannon",
 		"unitType": "Ranged Gunpowder",
 		"movement": 2,
@@ -1643,6 +1958,21 @@
 		"upgradesTo": "Field Cannon",
 		"obsoleteTech": "Industrialization",
 		"uniques": ["Never appears as a Barbarian unit", "[-10]% Strength <vs [Infantry] units>"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Powder Crew",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Cannon",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 16,
+		"rangedStrength": 22,
+		"cost": 185,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Field Cannon",
+		"obsoleteTech": "Industrialization",
+		"uniques": ["[-10]% Strength <vs [Infantry] units>"],
 		"attackSound": "cannon"
 	},
 	{
@@ -1659,8 +1989,38 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Rebel Cannon Crew",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Field Cannon",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 28,
+		"rangedStrength": 32,
+		"cost": 225,
+		"requiredTech": "Industrialization",
+		"upgradesTo": "Field Gun",
+		"obsoleteTech": "Ballistics",
+		"uniques": ["[-10]% Strength <vs [Infantry] units>"],
+		"attackSound": "cannon"
+	},
+	{
 		"name": "Field Gun",
 		"unitType": "Ranged Gunpowder",
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 55,
+		"cost": 350,
+		"requiredTech": "Ballistics",
+		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Field Howitzer",
+		"uniques": ["[-10]% Strength <vs [Infantry] units>"]
+		"attackSound": "artilllery"
+	},
+	{
+		"name": "Rebel Field Gunner",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Field Gun",
+		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 40,
 		"rangedStrength": 55,
@@ -1685,6 +2045,21 @@
 		"attackSound": "artillery"
 	},
 	{
+		"name": "Improvised Howitzer",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Field Howitzer",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 80,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"obsoleteTech": "Robotics",
+		"upgradesTo": "Field Artillery",
+		"uniques": ["[-10]% Strength <vs [Infantry] units>"],
+		"attackSound": "artillery"
+	},
+	{
 		"name": "Field Artillery",
 		"unitType": "Ranged Gunpowder",
 		"movement": 2,
@@ -1695,6 +2070,21 @@
 		"obsoleteTech": "New Gen Ballistics",
 		"upgradesTo": "Precision Field Artillery",
 		"uniques": ["Never appears as a Barbarian unit", "[-10]% Strength <vs [Infantry] units>"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Cartel Bombardier",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Field Artillery",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 60,
+		"rangedStrength": 90,
+		"cost": 425,
+		"requiredTech": "Robotics",
+		"obsoleteTech": "New Gen Ballistics",
+		"upgradesTo": "Precision Field Artillery",
+		"uniques": ["[-10]% Strength <vs [Infantry] units>"],
 		"attackSound": "artillery"
 	},
 	{
@@ -1711,6 +2101,21 @@
 		"attackSound": "artillery"
 	},
 	{
+		"name": "Urban Sheller",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Artillery Field Artillery",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 70,
+		"rangedStrength": 100,
+		"cost": 475,
+		"requiredTech": "New Gen Ballistics",
+		"obsoleteTech": "Artificial Superconductor",
+		"upgradesTo": "Gauss Howitzer",
+		"uniques": ["[-10]% Strength <vs [Infantry] units>"],
+		"attackSound": "artillery"
+	},
+	{
 		"name": "Gauss Howitzer",
 		"unitType": "Ranged Gunpowder",
 		"movement": 2,
@@ -1719,6 +2124,18 @@
 		"cost": 550,
 		"requiredTech": "Artificial Superconductor",
 		"uniques": ["Never appears as a Barbarian unit", "[-10]% Strength <vs [Infantry] units>"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Divine Cannon",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Gauss Howitzer",
+		"movement": 2,
+		"strength": 85,
+		"rangedStrength": 120,
+		"cost": 550,
+		"requiredTech": "Artificial Superconductor",
+		"uniques": ["[-10]% Strength <vs [Infantry] units>"],
 		"attackSound": "artillery"
 	},
 
