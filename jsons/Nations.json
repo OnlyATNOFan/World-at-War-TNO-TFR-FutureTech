@@ -180,8 +180,8 @@
 		"outerColor": [46,46,46],
 		"innerColor": [167,167,167],
 		"uniqueName": "Black Huntes",
-		"uniques": ["Starts with [Esoteric Nazism] adopted","[-30]% maintenance cost"],
-		"cities": ["Earn [10]% of the damage done to [City] units as [Culture]","Orks","Oremburg","Kuvandyk","Gay","Mednogorsk","Soróchinsk","Yasny","Abdulino","Novotroitsk","Buguruslán","Sol-lletsk","Neu Samara","Buzuluk","Matveevka","Asekeevo","Ilek","Belyaevka","Sharlyk","Kurmanaevka","Pleshanovo","Komarovsky","Oktyabr'skoe","Abdrakhmanovo"]
+		"uniques": ["Earn [10]% of the damage done to [City] units as [Culture]","Starts with [Esoteric Nazism] adopted","[-30]% maintenance cost"],
+		"cities": ["Orks","Oremburg","Kuvandyk","Gay","Mednogorsk","Soróchinsk","Yasny","Abdulino","Novotroitsk","Buguruslán","Sol-lletsk","Neu Samara","Buzuluk","Matveevka","Asekeevo","Ilek","Belyaevka","Sharlyk","Kurmanaevka","Pleshanovo","Komarovsky","Oktyabr'skoe","Abdrakhmanovo"]
 	},
 	{
 		"name": "Ural Military District",
