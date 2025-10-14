@@ -3330,7 +3330,7 @@
 		"strength": 75,
 		"cost": 450,
 		"requiredTech": "Mobile Tactics",
-		"obsoleteTech": "New Gen Aerospace Engineering",
+		"obsoleteTech": "New Gen Aeronautics Engineering",
 		"uniques": ["May Paradrop up to [10] tiles from inside friendly territory", "All tiles cost 1 movement", "Never appears as a Barbarian unit"],
 		"attackSound": "shots",
 		"upgradesTo": "Satelital War Paratrooper"
@@ -3341,7 +3341,7 @@
 		"movement": 2,
 		"strength": 85,
 		"cost": 525,
-		"requiredTech": "New Gen Aerospace Engineering",
+		"requiredTech": "New Gen Aeronautics Engineering",
 		"obsoleteTech": "New Gen equipment",
 		"uniques": ["May Paradrop up to [10] tiles from inside friendly territory", "All tiles cost 1 movement", "Never appears as a Barbarian unit"],
 		"attackSound": "shots",
