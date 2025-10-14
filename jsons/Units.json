@@ -2130,6 +2130,7 @@
 		"name": "Divine Cannon",
 		"unitType": "Ranged Gunpowder",
 		"replaces": "Gauss Howitzer",
+		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 85,
 		"rangedStrength": 120,
