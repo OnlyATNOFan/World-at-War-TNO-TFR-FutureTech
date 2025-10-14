@@ -18,8 +18,8 @@
         "name": "Communal Cabin",
         
         
-        "Production": 1,
-        "Culture": 1,
+        "production": 1,
+        "culture": 1,
     
         "requiredTech": "Agriculture",
         
@@ -34,8 +34,8 @@
         
         "maintenance": 1,
         "happiness": 1,
-        "Production": 1,
-        "Culture": 2,
+        "production": 1,
+        "culture": 2,
         
         "requiredTech": "Construction",
         "requiredBuilding": "Communal Cabin",
@@ -49,9 +49,9 @@
         "name": "City Hall",
         
         "maintenance": 2,
-        "Production": 1,
-        "Culture": 3,
-        "Gold": 1,
+        "production": 1,
+        "culture": 3,
+        "gold": 1,
         
         "requiredTech": "Civil Service",
         "requiredBuilding": "Community Meeting Room",
@@ -62,9 +62,9 @@
         "name": "Council House",
         
         "maintenance": 3,
-        "Production": 1,
-        "Culture": 4,
-        "Gold": 2,
+        "production": 1,
+        "culture": 4,
+        "gold": 2,
         
         "requiredTech": "Printing",
         "requiredBuilding": "City Hall",
@@ -79,9 +79,9 @@
         "name": "Municipal Palace",
         
         "maintenance": 4,
-        "Production": 2,
-        "Culture": 4,
-        "Gold": 3,
+        "production": 2,
+        "culture": 4,
+        "gold": 3,
         
         "requiredTech": "Industrialization",
         "requiredBuilding": "Council House",
@@ -97,9 +97,9 @@
         "name": "Modern Civic Center",
         
         "maintenance": 5,
-        "Production": 3,
-        "Culture": 6,
-        "Gold": 4,
+        "production": 3,
+        "culture": 6,
+        "gold": 4,
         
         "requiredTech": "Political Power",
         "requiredBuilding": "Municipal Palace",
@@ -116,9 +116,9 @@
         "name": "Administrative Complex",
         
         "maintenance": 6,
-        "Production": 4,
-        "Culture": 7,
-        "Gold": 5,
+        "production": 4,
+        "culture": 7,
+        "gold": 5,
         
         "requiredTech": "Computers",
         "requiredBuilding": "Modern Civic Center",
@@ -135,9 +135,9 @@
         "name": "Digital Management Center",
         
         "maintenance": 7,
-        "Production": 5,
-        "Culture": 8,
-        "Gold": 6,
+        "production": 5,
+        "culture": 8,
+        "gold": 6,
         
         "requiredTech": "Globalization",
         "requiredBuilding": "Administrative Complex",
@@ -154,9 +154,9 @@
         "name": "Autonomous Governance Module",
         
         "maintenance": 8,
-        "Production": 6,
-        "Culture": 10,
-        "Gold": 7,
+        "production": 6,
+        "culture": 10,
+        "gold": 7,
         
         "requiredTech": "Artificial Intelligence Advance",
         "requiredBuilding": "Digital Management Center",
@@ -173,9 +173,9 @@
         "name": "Biocivic Control Core",
         
         "maintenance": 9,
-        "Production": 6,
-        "Culture": 9,
-        "Gold": 8,
+        "production": 6,
+        "culture": 9,
+        "gold": 8,
         
         "requiredTech": "Bioengineering",
         "requiredBuilding": "Autonomous Governance Module",
