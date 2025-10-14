@@ -281,6 +281,15 @@
         "column": 39,
         "row": 2
     },
+    {
+        "name": "Boarding and capture",
+        "uniques": ["Earn [+25]% of killed [Military] unit's [Strength] as [Gold]",
+                "Earn [+10]% of killed [Military] unit's [Strength] as [Science]",
+                "Heals [+15] damage if it kills a Unit",
+                "May capture killed [Barbarians] units",
+                "[+50]% XP gained from combat"],
+        "unitTypes": ["Naval Melee"]
+    },
         {
                 "name": "Drone Support",
                 "uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>",
