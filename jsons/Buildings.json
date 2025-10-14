@@ -23,10 +23,6 @@
     
         "requiredTech": "Agriculture",
         
-        "uniques": [
-            "Free [Worker] appears"
-        ],
-        
         "cost": 35
     },
     {
