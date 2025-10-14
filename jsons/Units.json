@@ -2103,7 +2103,7 @@
 	{
 		"name": "Urban Sheller",
 		"unitType": "Ranged Gunpowder",
-		"replaces": "Artillery Field Artillery",
+		"replaces": "Precision Field Artillery",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 70,
