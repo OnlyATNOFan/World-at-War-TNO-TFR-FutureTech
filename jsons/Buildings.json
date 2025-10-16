@@ -23,7 +23,7 @@
         "requiredTech": "Mathematics",
 
         "uniques": [
-            "New [Military] units start with [15] XP [in this city]",
+            "New [Military] units start with [+20] XP [in this city]",
             "[+10]% [Gold] [in this city]"
         ],
 
