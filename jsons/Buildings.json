@@ -15,6 +15,21 @@
         "cost": 45
     },
     {
+        "name": "Calculation house",
+
+        "maintenance": 1,
+        "specialistSlots": {"Merchant":1},
+
+        "requiredTech": "Mathematics",
+
+        "uniques": [
+            "New [Military] units start with [15] XP [in this city]",
+            "[+10]% [Gold] [in this city]"
+        ],
+
+        "cost": 100
+    },
+    {
         "name": "Communal Cabin",
         
         
