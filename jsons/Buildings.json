@@ -15,6 +15,21 @@
         "cost": 45
     },
     {
+        "name": "Industrial District",
+
+        "maintenance": 1,
+        "production": 3,
+        "specialistSlots": {"Engineer":1},
+
+        "requiredTech": "Engineering",
+
+        "uniques": [
+            "[+15]% [Production] [in this city]"
+        ],
+
+        "cost": 110
+    },
+    {
         "name": "Calculation house",
 
         "maintenance": 1,
