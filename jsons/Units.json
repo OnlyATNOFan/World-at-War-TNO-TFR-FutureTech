@@ -2264,6 +2264,9 @@
 		"strength": 40,
 		"cost": 70,
 		"uniques": ["Infantry","May upgrade to [Great War Infantry] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>","[+50]% Strength <vs cities>"],
+		"upgradesTo": "Conscripts",
+		"requiredTech": "Radio",
+		"obsoleteTech": "Pharmaceuticals",
 		"attackSound": "shot",
 		"promotions": ["Morale"]
 	},
