@@ -423,24 +423,5 @@
 		"style": "",
 		"cities": ["Santiago","Valparaiso","Copiapo","Antofagasta","Iquique","Valdivia","Rancagua","Concepcion","La Serena","Temuco","Osorno","Port Montt", "Arica","Calama","Valparaiso","Talca","Chillan","Quellon","Chaiten","Puerto Aysen","Cochrane","Natales Port","Punta Arenas", "Los Angeles","Quillota","Coronel-Lota","Curico","San Antonio","Melipilla","Ovalle","Los Andes"],
 		"spyNames": []
-	},
-	
-	//Barbarian
-	{
-		"name": "Barbarians",
-		"outerColor": [0,0,0],
-		"innerColor": [182,12,12],
-		"style": "Barbarians",
-		"uniques": ["USA","Atomwaffen Division","Russian Warlord","Greater Germanic Reich","Red Fox","Fire Ant","Gray Fox","Arctic Fox","Grey Wolf",
-		"[-25]% Strength <vs cities> <before discovering [Steam Power]>", 
-		"[+1] Sight <for [Scout] units>", 
-		"[+25]% Strength <for [All] units>", 
-		"[+1] Movement <for [Scout] units>", 
-		"[{Land} {Melee}] units gain the [Raider] promotion",
-		"No movement cost to pillage <for [Melee] units>",
-		"[+10]% Strength <within [2] tiles of a [Barbarian encampment]>",
-		"[+10]% Strength <in [Barbarian encampment] tiles> <for [Melee] units>",
-		"Earn [500]% of the damage done to [City] units as [Science]",
-		"Earn [200]% of killed [Military] unit's [Strength] as [Science]"]
 	}
 ]
