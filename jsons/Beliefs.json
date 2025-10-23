@@ -1,8 +1,8 @@
 [
 	{
-	"name": "Desire for revenge",
-	"type": "Pantheon",
-	"uniques": ["Only available <after adopting [Revanchism]>","[+1 Food, +1 Production, +1 Gold, +2 Happiness, +1 Faith, +2 Culture] per [10] population [in all cities]","[+5]% Strength <for [All] units>","[+2 Food, +1 Production, +2 Gold, +5 Happiness, +1 Faith, +1 Science, +4 Culture] per [5] population [in capital]"]
+		"name": "Desire for revenge",
+		"type": "Pantheon",
+		"uniques": ["Only available <after adopting [Revanchism]>","[+1 Food, +1 Production, +1 Gold, +2 Happiness, +1 Faith, +2 Culture] per [10] population [in all cities]","[+5]% Strength <for [All] units>","[+2 Food, +1 Production, +2 Gold, +5 Happiness, +1 Faith, +1 Science, +4 Culture] per [5] population [in capital]"]
 	},
 	{
 		"name": "Great Trial Awaits...",
